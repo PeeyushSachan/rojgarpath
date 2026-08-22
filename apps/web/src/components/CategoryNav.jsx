@@ -16,16 +16,18 @@ export default function CategoryNav() {
         <nav aria-label="Job categories" className="bg-[#0d1117] text-slate-200">
             <div className="mx-auto flex w-full max-w-[90rem] items-stretch">
                 {/* Left hamburger — opens the selected category's post sidebar (mobile/tablet only) */}
-                <button
-                    type="button"
-                    onClick={() => setOpen((v) => !v)}
-                    aria-label={`Open ${hamburgerLabel} sidebar`}
-                    aria-expanded={open}
-                    className="flex h-12 shrink-0 items-center gap-1.5 border-r border-white/10 px-4 text-sm font-semibold text-white transition-colors hover:bg-white/10 lg:hidden"
-                >
-                    <Menu className="h-5 w-5" />
-                    <span className="hidden sm:inline">{activeCat ? activeCat.name : 'Posts'}</span>
-                </button>
+                {category && (
+                    <button
+                        type="button"
+                        onClick={() => setOpen((v) => !v)}
+                        aria-label={`Open ${hamburgerLabel} sidebar`}
+                        aria-expanded={open}
+                        className="flex h-12 shrink-0 items-center gap-1.5 border-r border-white/10 px-4 text-sm font-semibold text-white transition-colors hover:bg-white/10 lg:hidden"
+                    >
+                        <Menu className="h-5 w-5" />
+                        <span className="hidden sm:inline">{activeCat ? activeCat.name : 'Posts'}</span>
+                    </button>
+                )}
 
                 <ul className="no-scrollbar flex w-full flex-nowrap items-stretch overflow-x-auto overflow-y-hidden overscroll-x-contain whitespace-nowrap">
                     {navCategories.map((name) => {
