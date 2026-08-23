@@ -206,7 +206,7 @@ export default function TopHeader() {
 
             {/* Mobile/tablet general website menu drawer */}
             {menuOpen && (
-                <div className="border-t border-slate-200 bg-white lg:hidden">
+                <div className="border-t border-slate-200 bg-white min-[600px]:absolute min-[600px]:left-0 min-[600px]:right-0 min-[600px]:top-full lg:hidden">
                     <div className="mx-auto w-full max-w-[90rem] px-4 py-3">
                         <div className="mb-1 text-[11px] font-semibold uppercase tracking-wider text-slate-400">Quick Links</div>
                         {generalLinks.map((l) => (

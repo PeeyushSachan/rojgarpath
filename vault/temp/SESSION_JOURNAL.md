@@ -1198,3 +1198,66 @@
 ## 2026-08-23 03:41:32.268Z click
 - element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
 
+## 2026-08-23 03:47:05.566Z load
+- url: http://localhost:3000/
+
+## 2026-08-23 03:47:06.881Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:47:11.187Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:47:11.604Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:47:15.939Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Latest Jobs"}
+
+## 2026-08-23 03:47:15.940Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-08-23 03:47:18.156Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:47:19.817Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Login / Register"}
+
+## 2026-08-23 03:47:19.818Z navigate
+- url: http://localhost:3000/login
+- via: pushState
+
+## 2026-08-23 03:47:21.136Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:47:23.125Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"References"}
+
+## 2026-08-23 03:47:23.126Z navigate
+- url: http://localhost:3000/
+- via: pushState
+
+## 2026-08-23 03:47:29.273Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Postal"}
+
+## 2026-08-23 03:47:29.273Z navigate
+- url: http://localhost:3000/jobs/postal
+- via: pushState
+
+## 2026-08-23 03:49:01.224Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC CPO"}
+
+## 2026-08-23 03:49:01.226Z navigate
+- url: http://127.0.0.1:3000/jobs/ssc/ssc-cpo
+- via: pushState
+
+## 2026-08-23 03:49:03.053Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open SSC posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC"}
+
+## 2026-08-23 03:49:04.244Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC CGL"}
+
+## 2026-08-23 03:49:04.245Z navigate
+- url: http://127.0.0.1:3000/jobs/ssc/ssc-cgl
+- via: pushState
+
