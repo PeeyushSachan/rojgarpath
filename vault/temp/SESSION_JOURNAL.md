@@ -1261,3 +1261,92 @@
 - url: http://127.0.0.1:3000/jobs/ssc/ssc-cgl
 - via: pushState
 
+## 2026-08-23 03:50:10.612Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Job OverviewThe Combined Graduate Level examination fills posts such as Assistant Section Officer, Inspector of Income Tax, Excise Inspector, Auditor and Accountant across central ministries and departments.Eligibility CriteriaAge: 18 to 32 years depending on the post.Education: Bachelor degree; CA, CS or degree with statistics for JSO posts.Indian citizenship and specific physical standards for inspector posts.Exam PatternStageComponentMarks / DurationTier 1Objective: Reasoning, GK, Maths, English200 marks / 60 minTier 2 Paper 1Maths, English, Reasoning, GK, Computer, DEST450 marksTier 2 Paper 2Statistics (JSO only)200 marksTier 2 Paper 3General Studies Finance and Economics (AAO only)200 marksSyllabusQuantitative aptitude: arithmetic, algebra, geometry, trigonometry, data interpretationEnglish language: grammar, vocabulary, comprehension, cloze testGeneral intelligence and reasoning: verbal and non verbalGeneral awareness: history, geography, polity, economics, science, current affairsComputer proficiency and data entry speed testApplication Process1Complete SSC one-time registration and keep the credentials safe.2Apply for CGL with post preferences and examination centre choices.3Pay fee of INR 100 (exempt for women, SC, ST and PwBD).4Use the correction window if any detail was entered wrongly.Important DatesNotification releasedAprilLast date to applyMayTier 1 examinationJulyTier 2 examinationOctoberFinal resultFebruary next yearSalary and BenefitsGroup B posts: Pay Level 7, INR 44,900 to INR 1,42,400 per month.Group C posts: Pay Level 4 to 6, INR 25,500 to INR 1,12,400 per month.Gross salary INR 45,000 to INR 80,000 depending on post and city.Central government health scheme, LTC and NPS benefits.Previous Year Papers and ResourcesCGL Tier 1 and Tier 2 previous papers (2016 onward)Post preference and job profile comparisonSectional mock test seriesRelated Posts in this CategorySSC CPOSSC CHSLSSC MTS and HavaldarSSC GD ConstableSSC Junior EngineerSSC Stenographer..."}
+
+## 2026-08-23 03:50:12.197Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open SSC posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC"}
+
+## 2026-08-23 03:50:13.730Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC CPO"}
+
+## 2026-08-23 03:50:13.731Z navigate
+- url: http://127.0.0.1:3000/jobs/ssc/ssc-cpo
+- via: pushState
+
+## 2026-08-23 03:50:56.470Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Postal Assistant / Sorting Assistant"}
+
+## 2026-08-23 03:50:56.471Z navigate
+- url: http://localhost:3000/jobs/postal/postal-assistant-sorting-assistant
+- via: pushState
+
+## 2026-08-23 03:50:58.155Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"India Post Gramin Dak Sevak"}
+
+## 2026-08-23 03:50:58.156Z navigate
+- url: http://localhost:3000/jobs/postal/india-post-gramin-dak-sevak
+- via: pushState
+
+## 2026-08-23 03:50:59.462Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"India Post"}
+
+## 2026-08-23 03:50:59.992Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"India Post"}
+
+## 2026-08-23 03:51:01.638Z focus
+- element: {"tag":"input","role":null,"ariaLabel":"Filter posts in sidebar","name":null,"type":null,"id":null,"placeholder":"Filter posts","label":"Filter posts in sidebar","value":"","valueLength":0,"text":""}
+
+## 2026-08-23 03:51:01.711Z click
+- element: {"tag":"input","role":null,"ariaLabel":"Filter posts in sidebar","name":null,"type":null,"id":null,"placeholder":"Filter posts","label":"Filter posts in sidebar","value":"","valueLength":0,"text":""}
+
+## 2026-08-23 03:51:10.639Z click
+- element: {"tag":"article","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Home/Postal/India Post Gramin Dak SevakIndia Post Gramin Dak SevakIndia Post recruitment and rural postal engagement information.Exam: India Post GDS recruitmentAuthority: India PostJob profile: Mail delivery, postal transactions and branch-office support within the notified rural area.Career: Promotion, transfer and service conditions follow the applicable service rules and recruitment notification.No cycle-specific vacancy, date or fee is stated here. Check the official source for current recruitment information.Verify details on the official authority websiteJob OverviewGramin Dak Sevak recruitment is a rural postal engagement with duties that can include branch-post-office operations, mail delivery and customer services. The current cycle determines selection, local language and other conditions.Eligibility CriteriaThe official GDS notification controls secondary education, local-language, age, computer and other requirements.Selection method and engagement conditions are distinct from regular departmental posts.Exam PatternStageComponentMarks / DurationSelectionThe current India Post GDS notification specifies the merit or other selection method and verification process.See the current official notificationSyllabusNo general competitive syllabus is stated here; follow the current GDS notification and portal instructions.Application Process1Read the current notification on the recruiting authority website before applying.2Complete the authority's registration and application form using certificates that match the required details.3Attend only the stages listed in the current notification and retain the application and admit-card records.4Complete document verification and any applicable medical or skill assessment after shortlisting.Important DatesRecruitment cycleVaries; check the official authority calendar and notificationSalary and BenefitsGDS TRCA and allowances are governed by India Post engagement rules and the current notification, not the regular centra..."}
+
+## 2026-08-23 03:51:13.651Z click
+- element: {"tag":"article","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Home/Postal/India Post Gramin Dak SevakIndia Post Gramin Dak SevakIndia Post recruitment and rural postal engagement information.Exam: India Post GDS recruitmentAuthority: India PostJob profile: Mail delivery, postal transactions and branch-office support within the notified rural area.Career: Promotion, transfer and service conditions follow the applicable service rules and recruitment notification.No cycle-specific vacancy, date or fee is stated here. Check the official source for current recruitment information.Verify details on the official authority websiteJob OverviewGramin Dak Sevak recruitment is a rural postal engagement with duties that can include branch-post-office operations, mail delivery and customer services. The current cycle determines selection, local language and other conditions.Eligibility CriteriaThe official GDS notification controls secondary education, local-language, age, computer and other requirements.Selection method and engagement conditions are distinct from regular departmental posts.Exam PatternStageComponentMarks / DurationSelectionThe current India Post GDS notification specifies the merit or other selection method and verification process.See the current official notificationSyllabusNo general competitive syllabus is stated here; follow the current GDS notification and portal instructions.Application Process1Read the current notification on the recruiting authority website before applying.2Complete the authority's registration and application form using certificates that match the required details.3Attend only the stages listed in the current notification and retain the application and admit-card records.4Complete document verification and any applicable medical or skill assessment after shortlisting.Important DatesRecruitment cycleVaries; check the official authority calendar and notificationSalary and BenefitsGDS TRCA and allowances are governed by India Post engagement rules and the current notification, not the regular centra..."}
+
+## 2026-08-23 03:51:14.170Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Authority: India Post"}
+
+## 2026-08-23 03:51:16.262Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Exam: India Post GDS recruitmentAuthority: India PostJob profile: Mail delivery, postal transactions and branch-office support within the notified rural area.Career: Promotion, transfer and service conditions follow the applicable service rules and recruitment notification.No cycle-specific vacancy, date or fee is stated here. Check the official source for current recruitment information.Verify details on the official authority website"}
+
+## 2026-08-23 03:51:20.117Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 03:51:20.117Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 03:51:21.400Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RRB Station Master"}
+
+## 2026-08-23 03:51:21.401Z navigate
+- url: http://localhost:3000/jobs/railway/rrb-station-master
+- via: pushState
+
+## 2026-08-23 03:51:25.255Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RRB Group D (Level 1)"}
+
+## 2026-08-23 03:51:25.256Z navigate
+- url: http://localhost:3000/jobs/railway/rrb-group-d-level-1
+- via: pushState
+
+## 2026-08-23 03:51:25.967Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RRB ALP (Assistant Loco Pilot)"}
+
+## 2026-08-23 03:51:25.967Z navigate
+- url: http://localhost:3000/jobs/railway/rrb-alp-assistant-loco-pilot
+- via: pushState
+
+## 2026-08-23 03:51:26.702Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RRB Group D (Level 1)"}
+
+## 2026-08-23 03:51:26.703Z navigate
+- url: http://localhost:3000/jobs/railway/rrb-group-d-level-1
+- via: pushState
+
+## 2026-08-23 03:52:12.692Z click
+- element: {"tag":"main","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway TutorialNon-TechnicalRRB NTPC Junior ClerkRRB Station MasterTechnical & Level 1RRB ALP (Assistant Loco Pilot)RRB Group D (Level 1)Additional official routesRRB Junior EngineerRRB TechnicianRPF ConstableHome/Railway/RRB Group D (Level 1)RRB Group D (Level 1)RRB and RRC recruitment across technical, non-technical and Level 1 posts.Job OverviewGroup D covers track maintainer, pointsman, assistant in various departments and helper posts. It is the largest railway recruitment drive by vacancy count.Eligibility CriteriaAge: 18 to 33 years.Education: Class 10 pass or ITI or National Apprenticeship Certificate.Physical efficiency: lifting and carrying 35 kg for 100 metres in 2 minutes (male).Exam PatternStageComponentMarks / DurationCBTSingle computer based test100 questions / 90 minPETPhysical Efficiency TestQualifyingStage 3Document verificationQualifyingStage 4Medical examinationQualifyingSyllabusGeneral science: physics, chemistry and life science of Class 10Mathematics: arithmetic, algebra, geometry basicsGeneral intelligence and reasoningGeneral awareness and current affairsApplication Process1Apply online during the notified window on the RRB regional site.2Fee of INR 500 for general with INR 400 refunded after appearing.3Download city intimation slip and admit card.4Appear for CBT, then PET as called.Important DatesNotification releasedDecemberApplication closesJanuaryCBTApril to June (multi shift)PETSeptemberSalary and BenefitsPay Level 1, basic pay INR 18,000 per month.Gross salary about INR 26,000 to INR 30,000.Free passes, medical care, uniform and departmental promotion after three years.Previous Year Papers and ResourcesGroup D previous year shift papersPET training planClass 10 science revision notesRelated Posts in this CategoryRRB NTPC Junior ClerkRRB Station MasterRRB ALP (Assistant Loco Pilot)RRB Junior EngineerRRB TechnicianRPF Constable"}
+
