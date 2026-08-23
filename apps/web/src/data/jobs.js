@@ -1,3 +1,5 @@
+import { categoryAdditions, expandedCategories } from './governmentData';
+
 const mkDetail = ({
     title,
     overview,
@@ -849,6 +851,12 @@ export const categories = [
         ],
     },
 ];
+
+categories.push(...expandedCategories);
+Object.entries(categoryAdditions).forEach(([slug, posts]) => {
+    const category = categories.find((item) => item.slug === slug);
+    if (category) category.groups.push({ name: 'Additional official routes', posts });
+});
 
 export const navCategories = [
     'Railway',

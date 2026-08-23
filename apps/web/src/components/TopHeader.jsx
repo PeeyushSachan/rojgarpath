@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Search, ChevronDown, X, ShieldCheck } from 'lucide-react';
 import { categories, getPosts, slugify } from '@/data/jobs';
+import { organizations, states } from '@/data/governmentData';
 
 const generalLinks = [
     { to: '/', label: 'Home' },
@@ -28,11 +29,25 @@ export default function TopHeader() {
     const navigate = useNavigate();
 
     const results = query.trim().length > 1
-        ? categories.flatMap((c) =>
-            getPosts(c)
-                .filter((p) => p.title.toLowerCase().includes(query.trim().toLowerCase()))
-                .map((p) => ({ label: p.title, cat: c.name, to: `/jobs/${c.slug}/${slugify(p.title)}` })),
-        ).slice(0, 6)
+        ? [
+            ...categories.flatMap((c) => {
+            const needle = query.trim().toLowerCase();
+            const categoryMatch = `${c.name} ${c.tagline}`.toLowerCase().includes(needle);
+            return getPosts(c)
+                .filter((p) => categoryMatch || [p.title, p.overview, ...(p.eligibility || []), ...(p.syllabus || []), p.metadata?.exam, p.metadata?.organization]
+                    .filter(Boolean)
+                    .join(' ')
+                    .toLowerCase()
+                    .includes(needle))
+                .map((p) => ({ label: p.title, cat: c.name, to: `/jobs/${c.slug}/${slugify(p.title)}` }));
+            }),
+            ...states
+                .filter((state) => state.toLowerCase().includes(query.trim().toLowerCase()))
+                .map((state) => ({ label: `${state} Government Jobs`, cat: 'State Government', to: '/jobs/state-government' })),
+            ...organizations
+                .filter((organization) => organization.name.toLowerCase().includes(query.trim().toLowerCase()))
+                .map((organization) => ({ label: organization.name, cat: 'Official authority', to: '/jobs/other-government-jobs' })),
+        ].filter((result, index, all) => all.findIndex((item) => item.to === result.to && item.label === result.label) === index).slice(0, 8)
         : [];
 
     const go = (to) => {

@@ -155,6 +155,21 @@ export default function CategoryPage() {
                     </h1>
                     <p className="mt-2 text-sm text-slate-500">{cat.tagline}</p>
 
+                    {post.metadata && (
+                        <div className="mt-6 grid gap-3 border-y border-slate-200 py-4 text-sm sm:grid-cols-2">
+                            <p><span className="font-semibold text-[#0b2b5b]">Exam:</span> {post.metadata.exam}</p>
+                            <p><span className="font-semibold text-[#0b2b5b]">Authority:</span> {post.metadata.recruitmentAuthority}</p>
+                            <p><span className="font-semibold text-[#0b2b5b]">Job profile:</span> {post.metadata.jobProfile}</p>
+                            <p><span className="font-semibold text-[#0b2b5b]">Career:</span> {post.metadata.careerGrowth}</p>
+                            <p className="sm:col-span-2 text-slate-600">{post.metadata.currentRecruitment}</p>
+                            <p className="sm:col-span-2">
+                                <a href={post.metadata.source} target="_blank" rel="noreferrer" className="font-semibold text-[#b8600f] hover:text-[#0b2b5b]">
+                                    Verify details on the official authority website
+                                </a>
+                            </p>
+                        </div>
+                    )}
+
                     <div className="mt-6 space-y-10 pb-6">
                         <Section id="overview" title="Job Overview">
                             <p className="max-w-[62ch] text-[15px] leading-7 text-slate-700">{post.overview}</p>
