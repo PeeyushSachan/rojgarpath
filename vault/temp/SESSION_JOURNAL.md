@@ -2579,3 +2579,3940 @@
 - url: http://localhost:3000/
 - via: pushState
 
+## 2026-08-23 07:06:24.688Z load
+- url: http://localhost:3000/
+
+## 2026-08-23 07:06:45.381Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-23 07:06:45.383Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-23 07:07:31.241Z load
+- url: http://192.168.29.29:3000/
+
+## 2026-08-23 07:07:32.922Z navigate
+- url: http://192.168.29.29:3000/
+- via: replaceState
+
+## 2026-08-23 07:07:40.379Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:07:40.384Z navigate
+- url: http://192.168.29.29:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:07:40.540Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:07:48.425Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-23 07:07:48.426Z navigate
+- url: http://192.168.29.29:3000/jobs/police
+- via: pushState
+
+## 2026-08-23 07:08:19.927Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RojgarPathSarkari Naukri Guide"}
+
+## 2026-08-23 07:08:19.930Z navigate
+- url: http://192.168.29.29:3000/
+- via: pushState
+
+## 2026-08-23 07:08:20.737Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 07:08:21.590Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 07:08:22.315Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:08:22.317Z navigate
+- url: http://192.168.29.29:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:08:22.433Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:08:23.788Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:08:23.832Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:08:25.472Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Close","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-08-23 07:08:25.494Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:08:26.556Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-23 07:08:26.557Z navigate
+- url: http://192.168.29.29:3000/jobs/police
+- via: pushState
+
+## 2026-08-23 07:08:33.629Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-08-23 07:08:33.631Z navigate
+- url: http://192.168.29.29:3000/jobs/upsc
+- via: pushState
+
+## 2026-08-23 07:08:35.524Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Defence"}
+
+## 2026-08-23 07:08:35.525Z navigate
+- url: http://192.168.29.29:3000/jobs/defence
+- via: pushState
+
+## 2026-08-23 07:08:37.254Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Defence posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Defence"}
+
+## 2026-08-23 07:08:38.155Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"AFCAT Flying and Ground Duty Officer"}
+
+## 2026-08-23 07:08:38.157Z navigate
+- url: http://192.168.29.29:3000/jobs/defence/afcat-flying-and-ground-duty-officer
+- via: pushState
+
+## 2026-08-23 07:08:57.184Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC"}
+
+## 2026-08-23 07:08:57.185Z navigate
+- url: http://localhost:3000/jobs/ssc
+- via: pushState
+
+## 2026-08-23 07:08:58.037Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Defence"}
+
+## 2026-08-23 07:08:58.038Z navigate
+- url: http://localhost:3000/jobs/defence
+- via: pushState
+
+## 2026-08-23 07:08:59.650Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Defence posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Defence"}
+
+## 2026-08-23 07:09:00.744Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Close sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-08-23 07:09:04.220Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:09:04.221Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:09:04.235Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:09:07.261Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Teaching"}
+
+## 2026-08-23 07:09:07.262Z navigate
+- url: http://192.168.29.29:3000/jobs/teaching
+- via: pushState
+
+## 2026-08-23 07:09:07.941Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Banking"}
+
+## 2026-08-23 07:09:07.942Z navigate
+- url: http://192.168.29.29:3000/jobs/banking
+- via: pushState
+
+## 2026-08-23 07:09:09.584Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:09:09.586Z navigate
+- url: http://192.168.29.29:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:09:09.689Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:09:10.190Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:09:10.254Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:10:01.658Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"About"}
+
+## 2026-08-23 07:10:01.658Z navigate
+- url: http://localhost:3000/about
+- via: pushState
+
+## 2026-08-23 07:10:04.842Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"This is not a government website. Always verify dates, vacancies and fees with the official notification of the recruiting board before applying."}
+
+## 2026-08-23 07:10:05.132Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"This is not a government website. Always verify dates, vacancies and fees with the official notification of the recruiting board before applying."}
+
+## 2026-08-23 07:10:19.239Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RojgarPathSarkari Naukri GuideHomeAboutContactSign InMenu"}
+
+## 2026-08-23 07:10:20.305Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Contact"}
+
+## 2026-08-23 07:10:20.306Z navigate
+- url: http://localhost:3000/contact
+- via: pushState
+
+## 2026-08-23 07:10:21.789Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"About"}
+
+## 2026-08-23 07:10:21.790Z navigate
+- url: http://localhost:3000/about
+- via: pushState
+
+## 2026-08-23 07:10:22.690Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Contact"}
+
+## 2026-08-23 07:10:22.691Z navigate
+- url: http://localhost:3000/contact
+- via: pushState
+
+## 2026-08-23 07:10:23.626Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"About"}
+
+## 2026-08-23 07:10:23.627Z navigate
+- url: http://localhost:3000/about
+- via: pushState
+
+## 2026-08-23 07:10:25.164Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RojgarPathSarkari Naukri GuideHomeAboutContactSign InMenu"}
+
+## 2026-08-23 07:10:25.750Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Home"}
+
+## 2026-08-23 07:10:25.751Z navigate
+- url: http://localhost:3000/
+- via: pushState
+
+## 2026-08-23 07:10:27.100Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"About"}
+
+## 2026-08-23 07:10:27.101Z navigate
+- url: http://localhost:3000/about
+- via: pushState
+
+## 2026-08-23 07:10:29.425Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Login / Register"}
+
+## 2026-08-23 07:10:29.425Z navigate
+- url: http://localhost:3000/login
+- via: pushState
+
+## 2026-08-23 07:10:31.607Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"EmailPasswordLogin (coming soon)"}
+
+## 2026-08-23 07:10:31.929Z click
+- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Email"}
+
+## 2026-08-23 07:10:32.763Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"EmailPasswordLogin (coming soon)"}
+
+## 2026-08-23 07:10:38.657Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"About"}
+
+## 2026-08-23 07:10:38.659Z navigate
+- url: http://localhost:3000/about
+- via: pushState
+
+## 2026-08-23 07:10:43.804Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Clerk Jobs"}
+
+## 2026-08-23 07:10:43.805Z navigate
+- url: http://localhost:3000/jobs/clerk-jobs
+- via: pushState
+
+## 2026-08-23 07:10:45.169Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:10:45.170Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:10:45.185Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:11:12.822Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Teaching"}
+
+## 2026-08-23 07:11:12.823Z navigate
+- url: http://localhost:3000/jobs/teaching
+- via: pushState
+
+## 2026-08-23 07:11:16.228Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Banking"}
+
+## 2026-08-23 07:11:16.229Z navigate
+- url: http://localhost:3000/jobs/banking
+- via: pushState
+
+## 2026-08-23 07:11:18.066Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC"}
+
+## 2026-08-23 07:11:18.067Z navigate
+- url: http://localhost:3000/jobs/ssc
+- via: pushState
+
+## 2026-08-23 07:11:18.976Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-08-23 07:11:18.977Z navigate
+- url: http://localhost:3000/jobs/upsc
+- via: pushState
+
+## 2026-08-23 07:11:20.006Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-23 07:11:20.007Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-23 07:11:21.521Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-08-23 07:11:21.522Z navigate
+- url: http://localhost:3000/jobs/upsc
+- via: pushState
+
+## 2026-08-23 07:11:53.750Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"IFS - Indian Forest Service"}
+
+## 2026-08-23 07:11:53.752Z navigate
+- url: http://localhost:3000/jobs/upsc/ifs-indian-forest-service
+- via: pushState
+
+## 2026-08-23 07:12:01.460Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:12:01.461Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:12:01.472Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:10.403Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Close sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-08-23 07:12:10.437Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:11.320Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:12:11.342Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:12.118Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Accounts Clerk Cum Typist"}
+
+## 2026-08-23 07:12:12.119Z navigate
+- url: http://192.168.29.29:3000/jobs/railway/accounts-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:12:12.140Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:12.203Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:17.567Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Search government jobs","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-08-23 07:12:18.290Z focus
+- element: {"tag":"input","role":null,"ariaLabel":"Search government jobs","name":null,"type":null,"id":null,"placeholder":"Search exams and posts","label":"Search government jobs","value":"","valueLength":0,"text":""}
+
+## 2026-08-23 07:12:18.294Z click
+- element: {"tag":"input","role":null,"ariaLabel":"Search government jobs","name":null,"type":null,"id":null,"placeholder":"Search exams and posts","label":"Search government jobs","value":"","valueLength":0,"text":""}
+
+## 2026-08-23 07:12:22.640Z change
+- element: {"tag":"input","role":null,"ariaLabel":"Search government jobs","name":null,"type":null,"id":null,"placeholder":"Search exams and posts","label":"Search government jobs","value":"Ssc","valueLength":3,"text":""}
+
+## 2026-08-23 07:12:22.641Z blur
+- element: {"tag":"input","role":null,"ariaLabel":"Search government jobs","name":null,"type":null,"id":null,"placeholder":"Search exams and posts","label":"Search government jobs","value":"Ssc","valueLength":3,"text":""}
+
+## 2026-08-23 07:12:22.644Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC CGLSSC"}
+
+## 2026-08-23 07:12:22.647Z navigate
+- url: http://192.168.29.29:3000/jobs/ssc/ssc-cgl
+- via: pushState
+
+## 2026-08-23 07:12:42.255Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:12:42.256Z navigate
+- url: http://192.168.29.29:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:12:42.322Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:43.808Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:12:43.834Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:44.698Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Accounts Clerk Cum Typist"}
+
+## 2026-08-23 07:12:44.699Z navigate
+- url: http://192.168.29.29:3000/jobs/railway/accounts-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:12:44.722Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:44.779Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:45.570Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:12:45.592Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:46.334Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Clerk Cum Typist"}
+
+## 2026-08-23 07:12:46.335Z navigate
+- url: http://192.168.29.29:3000/jobs/railway/junior-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:12:46.358Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:46.413Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:47.552Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:12:47.571Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:48.290Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Trains Clerk"}
+
+## 2026-08-23 07:12:48.291Z navigate
+- url: http://192.168.29.29:3000/jobs/railway/trains-clerk
+- via: pushState
+
+## 2026-08-23 07:12:48.310Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:12:48.362Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:13:47.872Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Accounts Clerk Cum Typist"}
+
+## 2026-08-23 07:13:47.873Z navigate
+- url: http://localhost:3000/jobs/railway/accounts-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:13:47.880Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:13:48.396Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Clerk Cum Typist"}
+
+## 2026-08-23 07:13:48.396Z navigate
+- url: http://localhost:3000/jobs/railway/junior-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:13:48.400Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:13:48.780Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Trains Clerk"}
+
+## 2026-08-23 07:13:48.781Z navigate
+- url: http://localhost:3000/jobs/railway/trains-clerk
+- via: pushState
+
+## 2026-08-23 07:13:48.791Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:13:49.455Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Chief Commercial Cum Ticket Supervisor"}
+
+## 2026-08-23 07:13:49.456Z navigate
+- url: http://localhost:3000/jobs/railway/chief-commercial-cum-ticket-supervisor
+- via: pushState
+
+## 2026-08-23 07:13:49.464Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:13:49.926Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Goods Train Manager"}
+
+## 2026-08-23 07:13:49.926Z navigate
+- url: http://localhost:3000/jobs/railway/goods-train-manager
+- via: pushState
+
+## 2026-08-23 07:13:49.929Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:13:50.617Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Station Master"}
+
+## 2026-08-23 07:13:50.618Z navigate
+- url: http://localhost:3000/jobs/railway/station-master
+- via: pushState
+
+## 2026-08-23 07:13:50.628Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:11.706Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway TutorialNTPC - UNDER GRADUATECommercial Cum Ticket ClerkAccounts Clerk Cum TypistJunior Clerk Cum TypistTrains ClerkNTPC - GRADUATEChief Commercial Cum Ticket SupervisorStation MasterGoods Train ManagerJunior Account Assistant Cum TypistSenior Clerk Cum TypistSenior Commercial Cum Ticket ClerkTECHNICAL & ENGINEERINGAssistant Loco Pilot (ALP)TechnicianJunior Engineer (JE)Depot Material Superintendent (DMS)Chemical & Metallurgical Assistant (CMA)Chemical SupervisorMetallurgical SupervisorJUNIOR ENGINEER - SPECIALIZATIONSJE CivilJE P-WayJE WorksJE ElectricalJE MechanicalJE SignalJE TelecommunicationJE S&TJE Track MachineJE Carriage & WagonJE DieselJE WorkshopOther JE DisciplinesLEVEL-1 / GROUP-DTrack Maintainer Grade IVPointsmanAssistant P-WayAssistant BridgeAssistant Track MachineAssistant C&WAssistant Loco ShedAssistant OperationsAssistant TL & ACAssistant Signal & TelecomOther Assistant PostsSECTION CONTROLLERSection ControllerRPFRPF ConstableRPF Sub Inspector (SI)PARAMEDICALNursing SuperintendentPharmacistHealth & Malaria InspectorLaboratory AssistantRadiographer / X-Ray TechnicianECG TechnicianDialysis TechnicianDieticianPhysiotherapistDental HygienistOccupational TherapistAudiologist & Speech TherapistOther Paramedical PostsMINISTERIAL & ISOLATED CATEGORIESJunior Translator / Hindi TranslatorSenior Publicity InspectorStaff & Welfare InspectorChief Law AssistantLibrarianPrimary TeacherTrained Graduate Teacher (TGT)Post Graduate Teacher (PGT)Physical Training InstructorMusic TeacherJunior StenographerSenior StenographerLaboratory AssistantOther Isolated PostsAPPRENTICE / RRCRRC ApprenticeAct ApprenticeTrade ApprenticeSPECIAL RECRUITMENTSports QuotaScouts & Guides QuotaCultural QuotaOther Special RecruitmentHome/Railway/Station MasterStation MasterRRB and RRC recruitment across technical, non-technical and Level 1 posts.Exam: RRB NTPC recruitmentAuthority: Railway Recruitment BoardsJob profile: Station control, train movement coordination, signalling and saf..."}
+
+## 2026-08-23 07:14:12.306Z click
+- element: {"tag":"li","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Recruitment cycleVaries; check the official authority calendar and notification"}
+
+## 2026-08-23 07:14:33.478Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Commercial Cum Ticket Clerk"}
+
+## 2026-08-23 07:14:33.479Z navigate
+- url: http://localhost:3000/jobs/railway/commercial-cum-ticket-clerk
+- via: pushState
+
+## 2026-08-23 07:14:33.490Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:34.805Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Accounts Clerk Cum Typist"}
+
+## 2026-08-23 07:14:34.806Z navigate
+- url: http://localhost:3000/jobs/railway/accounts-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:14:34.818Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:36.006Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Clerk Cum Typist"}
+
+## 2026-08-23 07:14:36.007Z navigate
+- url: http://localhost:3000/jobs/railway/junior-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:14:36.016Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:36.848Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Clerk Cum Typist"}
+
+## 2026-08-23 07:14:36.849Z navigate
+- url: http://localhost:3000/jobs/railway/junior-clerk-cum-typist
+- via: replaceState
+
+## 2026-08-23 07:14:36.863Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:38.068Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Trains Clerk"}
+
+## 2026-08-23 07:14:38.069Z navigate
+- url: http://localhost:3000/jobs/railway/trains-clerk
+- via: pushState
+
+## 2026-08-23 07:14:38.079Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:38.773Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Clerk Cum Typist"}
+
+## 2026-08-23 07:14:38.774Z navigate
+- url: http://localhost:3000/jobs/railway/junior-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:14:38.784Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:39.507Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Trains Clerk"}
+
+## 2026-08-23 07:14:39.509Z navigate
+- url: http://localhost:3000/jobs/railway/trains-clerk
+- via: pushState
+
+## 2026-08-23 07:14:39.518Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:40.489Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Clerk Cum Typist"}
+
+## 2026-08-23 07:14:40.490Z navigate
+- url: http://localhost:3000/jobs/railway/junior-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:14:40.497Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:48.993Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"JE P-Way"}
+
+## 2026-08-23 07:14:48.994Z navigate
+- url: http://localhost:3000/jobs/railway/je-p-way
+- via: pushState
+
+## 2026-08-23 07:14:48.997Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:50.189Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"JE Civil"}
+
+## 2026-08-23 07:14:50.190Z navigate
+- url: http://localhost:3000/jobs/railway/je-civil
+- via: pushState
+
+## 2026-08-23 07:14:50.201Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:51.359Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"JUNIOR ENGINEER - SPECIALIZATIONS"}
+
+## 2026-08-23 07:14:51.363Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:52.550Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"LEVEL-1 / GROUP-D"}
+
+## 2026-08-23 07:14:52.556Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:53.517Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SECTION CONTROLLER"}
+
+## 2026-08-23 07:14:53.521Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:55.152Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"PARAMEDICAL"}
+
+## 2026-08-23 07:14:55.155Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:56.517Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RPF"}
+
+## 2026-08-23 07:14:56.524Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:57.837Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"MINISTERIAL & ISOLATED CATEGORIES"}
+
+## 2026-08-23 07:14:57.842Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:14:59.390Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"APPRENTICE / RRC"}
+
+## 2026-08-23 07:14:59.393Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:01.654Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SPECIAL RECRUITMENT"}
+
+## 2026-08-23 07:15:01.660Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:03.298Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"TECHNICAL & ENGINEERING"}
+
+## 2026-08-23 07:15:03.304Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:04.865Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"NTPC - UNDER GRADUATE"}
+
+## 2026-08-23 07:15:04.870Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:07.205Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"NTPC - GRADUATE"}
+
+## 2026-08-23 07:15:07.208Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:24.746Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-23 07:15:24.748Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-23 07:15:26.152Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-08-23 07:15:26.153Z navigate
+- url: http://localhost:3000/jobs/upsc
+- via: pushState
+
+## 2026-08-23 07:15:27.202Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC"}
+
+## 2026-08-23 07:15:27.203Z navigate
+- url: http://localhost:3000/jobs/ssc
+- via: pushState
+
+## 2026-08-23 07:15:27.688Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Banking"}
+
+## 2026-08-23 07:15:27.688Z navigate
+- url: http://localhost:3000/jobs/banking
+- via: pushState
+
+## 2026-08-23 07:15:28.387Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Defence"}
+
+## 2026-08-23 07:15:28.387Z navigate
+- url: http://localhost:3000/jobs/defence
+- via: pushState
+
+## 2026-08-23 07:15:29.061Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Teaching"}
+
+## 2026-08-23 07:15:29.062Z navigate
+- url: http://localhost:3000/jobs/teaching
+- via: pushState
+
+## 2026-08-23 07:15:29.588Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Postal"}
+
+## 2026-08-23 07:15:29.589Z navigate
+- url: http://localhost:3000/jobs/postal
+- via: pushState
+
+## 2026-08-23 07:15:30.103Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"PSU"}
+
+## 2026-08-23 07:15:30.104Z navigate
+- url: http://localhost:3000/jobs/psu
+- via: pushState
+
+## 2026-08-23 07:15:30.682Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"DRDO"}
+
+## 2026-08-23 07:15:30.683Z navigate
+- url: http://localhost:3000/jobs/drdo
+- via: pushState
+
+## 2026-08-23 07:15:31.522Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"ISRO"}
+
+## 2026-08-23 07:15:31.523Z navigate
+- url: http://localhost:3000/jobs/isro
+- via: pushState
+
+## 2026-08-23 07:15:32.123Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Judiciary"}
+
+## 2026-08-23 07:15:32.124Z navigate
+- url: http://localhost:3000/jobs/judiciary
+- via: pushState
+
+## 2026-08-23 07:15:32.576Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"State Government"}
+
+## 2026-08-23 07:15:32.577Z navigate
+- url: http://localhost:3000/jobs/state-government
+- via: pushState
+
+## 2026-08-23 07:15:33.254Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Technical Jobs"}
+
+## 2026-08-23 07:15:33.255Z navigate
+- url: http://localhost:3000/jobs/technical-jobs
+- via: pushState
+
+## 2026-08-23 07:15:33.682Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Medical Jobs"}
+
+## 2026-08-23 07:15:33.683Z navigate
+- url: http://localhost:3000/jobs/medical-jobs
+- via: pushState
+
+## 2026-08-23 07:15:34.153Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Clerk Jobs"}
+
+## 2026-08-23 07:15:34.154Z navigate
+- url: http://localhost:3000/jobs/clerk-jobs
+- via: pushState
+
+## 2026-08-23 07:15:34.627Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Other Government Jobs"}
+
+## 2026-08-23 07:15:34.628Z navigate
+- url: http://localhost:3000/jobs/other-government-jobs
+- via: pushState
+
+## 2026-08-23 07:15:35.937Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:15:35.938Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:15:35.942Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:37.251Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"NTPC - UNDER GRADUATE"}
+
+## 2026-08-23 07:15:37.256Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:39.570Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"NTPC - GRADUATE"}
+
+## 2026-08-23 07:15:39.576Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:40.408Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Chief Commercial Cum Ticket Supervisor"}
+
+## 2026-08-23 07:15:40.409Z navigate
+- url: http://localhost:3000/jobs/railway/chief-commercial-cum-ticket-supervisor
+- via: pushState
+
+## 2026-08-23 07:15:40.412Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:44.344Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Commercial Cum Ticket Clerk"}
+
+## 2026-08-23 07:15:44.345Z navigate
+- url: http://localhost:3000/jobs/railway/commercial-cum-ticket-clerk
+- via: pushState
+
+## 2026-08-23 07:15:44.350Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:44.773Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Accounts Clerk Cum Typist"}
+
+## 2026-08-23 07:15:44.775Z navigate
+- url: http://localhost:3000/jobs/railway/accounts-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:15:44.781Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:45.366Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Clerk Cum Typist"}
+
+## 2026-08-23 07:15:45.366Z navigate
+- url: http://localhost:3000/jobs/railway/junior-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:15:45.369Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:46.049Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Trains Clerk"}
+
+## 2026-08-23 07:15:46.050Z navigate
+- url: http://localhost:3000/jobs/railway/trains-clerk
+- via: pushState
+
+## 2026-08-23 07:15:46.056Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:46.740Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Chief Commercial Cum Ticket Supervisor"}
+
+## 2026-08-23 07:15:46.741Z navigate
+- url: http://localhost:3000/jobs/railway/chief-commercial-cum-ticket-supervisor
+- via: pushState
+
+## 2026-08-23 07:15:46.748Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:47.293Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Station Master"}
+
+## 2026-08-23 07:15:47.294Z navigate
+- url: http://localhost:3000/jobs/railway/station-master
+- via: pushState
+
+## 2026-08-23 07:15:47.301Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:47.714Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Goods Train Manager"}
+
+## 2026-08-23 07:15:47.715Z navigate
+- url: http://localhost:3000/jobs/railway/goods-train-manager
+- via: pushState
+
+## 2026-08-23 07:15:47.722Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:48.187Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Account Assistant Cum Typist"}
+
+## 2026-08-23 07:15:48.188Z navigate
+- url: http://localhost:3000/jobs/railway/junior-account-assistant-cum-typist
+- via: pushState
+
+## 2026-08-23 07:15:48.207Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:48.634Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Senior Clerk Cum Typist"}
+
+## 2026-08-23 07:15:48.635Z navigate
+- url: http://localhost:3000/jobs/railway/senior-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:15:48.641Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:49.034Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Senior Commercial Cum Ticket Clerk"}
+
+## 2026-08-23 07:15:49.036Z navigate
+- url: http://localhost:3000/jobs/railway/senior-commercial-cum-ticket-clerk
+- via: pushState
+
+## 2026-08-23 07:15:49.042Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:50.541Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"TECHNICAL & ENGINEERING"}
+
+## 2026-08-23 07:15:50.548Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:51.279Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant Loco Pilot (ALP)"}
+
+## 2026-08-23 07:15:51.280Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-loco-pilot-alp
+- via: pushState
+
+## 2026-08-23 07:15:51.286Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:51.666Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Technician"}
+
+## 2026-08-23 07:15:51.667Z navigate
+- url: http://localhost:3000/jobs/railway/technician
+- via: pushState
+
+## 2026-08-23 07:15:51.674Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:52.128Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Engineer (JE)"}
+
+## 2026-08-23 07:15:52.129Z navigate
+- url: http://localhost:3000/jobs/railway/junior-engineer-je
+- via: pushState
+
+## 2026-08-23 07:15:52.141Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:54.937Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"LEVEL-1 / GROUP-D"}
+
+## 2026-08-23 07:15:54.943Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:56.564Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Track Maintainer Grade IV"}
+
+## 2026-08-23 07:15:56.565Z navigate
+- url: http://localhost:3000/jobs/railway/track-maintainer-grade-iv
+- via: pushState
+
+## 2026-08-23 07:15:56.573Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:56.931Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Pointsman"}
+
+## 2026-08-23 07:15:56.932Z navigate
+- url: http://localhost:3000/jobs/railway/pointsman
+- via: pushState
+
+## 2026-08-23 07:15:56.940Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:57.403Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant P-Way"}
+
+## 2026-08-23 07:15:57.404Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-p-way
+- via: pushState
+
+## 2026-08-23 07:15:57.407Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:57.862Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant Bridge"}
+
+## 2026-08-23 07:15:57.863Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-bridge
+- via: pushState
+
+## 2026-08-23 07:15:57.870Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:58.317Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant Track Machine"}
+
+## 2026-08-23 07:15:58.319Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-track-machine
+- via: pushState
+
+## 2026-08-23 07:15:58.330Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:15:59.938Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant Signal & Telecom"}
+
+## 2026-08-23 07:15:59.940Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-signal-telecom
+- via: pushState
+
+## 2026-08-23 07:15:59.946Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:16:00.509Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant TL & AC"}
+
+## 2026-08-23 07:16:00.510Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-tl-ac
+- via: pushState
+
+## 2026-08-23 07:16:00.517Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:16:01.237Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant Operations"}
+
+## 2026-08-23 07:16:01.238Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-operations
+- via: pushState
+
+## 2026-08-23 07:16:01.245Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:16:01.717Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant Loco Shed"}
+
+## 2026-08-23 07:16:01.718Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-loco-shed
+- via: pushState
+
+## 2026-08-23 07:16:01.723Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:16:02.412Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant C&W"}
+
+## 2026-08-23 07:16:02.412Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-c-w
+- via: pushState
+
+## 2026-08-23 07:16:02.416Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:16:02.836Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant Track Machine"}
+
+## 2026-08-23 07:16:02.837Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-track-machine
+- via: pushState
+
+## 2026-08-23 07:16:02.844Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:16:03.275Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant Bridge"}
+
+## 2026-08-23 07:16:03.276Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-bridge
+- via: pushState
+
+## 2026-08-23 07:16:03.281Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:16:03.929Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant P-Way"}
+
+## 2026-08-23 07:16:03.931Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-p-way
+- via: pushState
+
+## 2026-08-23 07:16:03.938Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:16:04.386Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Pointsman"}
+
+## 2026-08-23 07:16:04.387Z navigate
+- url: http://localhost:3000/jobs/railway/pointsman
+- via: pushState
+
+## 2026-08-23 07:16:04.391Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:16:04.839Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Track Maintainer Grade IV"}
+
+## 2026-08-23 07:16:04.840Z navigate
+- url: http://localhost:3000/jobs/railway/track-maintainer-grade-iv
+- via: pushState
+
+## 2026-08-23 07:16:04.845Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:16:06.294Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Other Assistant Posts"}
+
+## 2026-08-23 07:16:06.295Z navigate
+- url: http://localhost:3000/jobs/railway/other-assistant-posts
+- via: pushState
+
+## 2026-08-23 07:16:06.302Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:16:09.074Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"LEVEL-1 / GROUP-D"}
+
+## 2026-08-23 07:16:09.077Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:16:11.175Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"NTPC - UNDER GRADUATE"}
+
+## 2026-08-23 07:16:11.178Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787468734956:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787468734956:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:23:48.087Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-23 07:23:48.088Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-23 07:23:49.032Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-08-23 07:23:49.033Z navigate
+- url: http://localhost:3000/jobs/upsc
+- via: pushState
+
+## 2026-08-23 07:23:49.627Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-08-23 07:23:49.628Z navigate
+- url: http://localhost:3000/jobs/upsc
+- via: replaceState
+
+## 2026-08-23 07:23:49.969Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Banking"}
+
+## 2026-08-23 07:23:49.970Z navigate
+- url: http://localhost:3000/jobs/banking
+- via: pushState
+
+## 2026-08-23 07:23:50.485Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC"}
+
+## 2026-08-23 07:23:50.485Z navigate
+- url: http://localhost:3000/jobs/ssc
+- via: pushState
+
+## 2026-08-23 07:23:51.048Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Banking"}
+
+## 2026-08-23 07:23:51.049Z navigate
+- url: http://localhost:3000/jobs/banking
+- via: pushState
+
+## 2026-08-23 07:23:51.621Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Defence"}
+
+## 2026-08-23 07:23:51.622Z navigate
+- url: http://localhost:3000/jobs/defence
+- via: pushState
+
+## 2026-08-23 07:23:52.264Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Teaching"}
+
+## 2026-08-23 07:23:52.265Z navigate
+- url: http://localhost:3000/jobs/teaching
+- via: pushState
+
+## 2026-08-23 07:23:52.946Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Postal"}
+
+## 2026-08-23 07:23:52.947Z navigate
+- url: http://localhost:3000/jobs/postal
+- via: pushState
+
+## 2026-08-23 07:26:02.962Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://127.0.0.1:3000/src/pages/CategoryPage.jsx?t=1787469962851:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://127.0.0.1:3000/src/components/SiteChrome.jsx?t=1787469962851:6:38)
+        at CategoryPage (http://127.0.0.1:3000/src/pages/CategoryPage.jsx?t=1787469962851:70:7)
+        at RenderedRoute (http://127.0.0.1:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://127.0.0.1:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://127.0.0.1:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://127.0.0.1:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://127.0.0.1:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:26:13.673Z load
+- url: http://127.0.0.1:3000/
+
+## 2026-08-23 07:26:13.699Z navigate
+- url: http://127.0.0.1:3000/
+- via: replaceState
+
+## 2026-08-23 07:26:13.854Z load
+- url: http://127.0.0.1:3000/disclaimer
+
+## 2026-08-23 07:26:13.878Z navigate
+- url: http://127.0.0.1:3000/disclaimer
+- via: replaceState
+
+## 2026-08-23 07:26:14.023Z load
+- url: http://127.0.0.1:3000/
+
+## 2026-08-23 07:26:14.046Z navigate
+- url: http://127.0.0.1:3000/
+- via: replaceState
+
+## 2026-08-23 07:26:14.165Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 07:26:14.203Z load
+- url: http://127.0.0.1:3000/disclaimer
+
+## 2026-08-23 07:26:14.225Z navigate
+- url: http://127.0.0.1:3000/disclaimer
+- via: replaceState
+
+## 2026-08-23 07:26:14.366Z load
+- url: http://127.0.0.1:3000/
+
+## 2026-08-23 07:26:14.390Z navigate
+- url: http://127.0.0.1:3000/
+- via: replaceState
+
+## 2026-08-23 07:26:14.511Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 07:26:14.548Z load
+- url: http://127.0.0.1:3000/disclaimer
+
+## 2026-08-23 07:26:14.571Z navigate
+- url: http://127.0.0.1:3000/disclaimer
+- via: replaceState
+
+## 2026-08-23 07:27:18.179Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Disclaimer"}
+
+## 2026-08-23 07:27:18.180Z navigate
+- url: http://localhost:3000/disclaimer
+- via: pushState
+
+## 2026-08-23 07:30:32.693Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Medical Jobs"}
+
+## 2026-08-23 07:30:32.694Z navigate
+- url: http://localhost:3000/jobs/medical-jobs
+- via: pushState
+
+## 2026-08-23 07:30:34.247Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Technical Jobs"}
+
+## 2026-08-23 07:30:34.248Z navigate
+- url: http://localhost:3000/jobs/technical-jobs
+- via: pushState
+
+## 2026-08-23 07:30:35.874Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Medical Jobs"}
+
+## 2026-08-23 07:30:35.875Z navigate
+- url: http://localhost:3000/jobs/medical-jobs
+- via: pushState
+
+## 2026-08-23 07:30:53.452Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-23 07:30:53.453Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-23 07:30:54.749Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-08-23 07:30:54.750Z navigate
+- url: http://localhost:3000/jobs/upsc
+- via: pushState
+
+## 2026-08-23 07:30:55.614Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-23 07:30:55.616Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-23 07:30:56.768Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police Head Constable"}
+
+## 2026-08-23 07:30:56.769Z navigate
+- url: http://localhost:3000/jobs/police/police-head-constable
+- via: pushState
+
+## 2026-08-23 07:30:58.288Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police Constable"}
+
+## 2026-08-23 07:30:58.289Z navigate
+- url: http://localhost:3000/jobs/police/police-constable
+- via: pushState
+
+## 2026-08-23 07:30:58.911Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police Head Constable"}
+
+## 2026-08-23 07:30:58.913Z navigate
+- url: http://localhost:3000/jobs/police/police-head-constable
+- via: pushState
+
+## 2026-08-23 07:30:59.729Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police Inspector"}
+
+## 2026-08-23 07:30:59.730Z navigate
+- url: http://localhost:3000/jobs/police/police-inspector
+- via: pushState
+
+## 2026-08-23 07:31:00.449Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police Sub-Inspector"}
+
+## 2026-08-23 07:31:00.449Z navigate
+- url: http://localhost:3000/jobs/police/police-sub-inspector
+- via: pushState
+
+## 2026-08-23 07:31:01.049Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police Inspector"}
+
+## 2026-08-23 07:31:01.051Z navigate
+- url: http://localhost:3000/jobs/police/police-inspector
+- via: pushState
+
+## 2026-08-23 07:31:01.816Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"CAPF Assistant Commandant"}
+
+## 2026-08-23 07:31:01.817Z navigate
+- url: http://localhost:3000/jobs/police/capf-assistant-commandant
+- via: pushState
+
+## 2026-08-23 07:31:04.665Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:31:04.666Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:31:04.677Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:31:45.762Z load
+- url: http://192.168.29.29:3000/jobs/railway/trains-clerk
+
+## 2026-08-23 07:31:46.103Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:31:51.827Z load
+- url: http://192.168.29.29:3000/jobs/railway/trains-clerk
+
+## 2026-08-23 07:31:52.230Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:31:55.696Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:31:55.738Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:01.922Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Close sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-08-23 07:32:01.981Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:03.094Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:32:03.125Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:04.577Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Close sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-08-23 07:32:04.634Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:07.654Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:32:07.657Z navigate
+- url: http://192.168.29.29:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:32:07.702Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:08.931Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:32:08.933Z navigate
+- url: http://192.168.29.29:3000/jobs/railway
+- via: replaceState
+
+## 2026-08-23 07:32:09.005Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:10.203Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Home"}
+
+## 2026-08-23 07:32:10.205Z navigate
+- url: http://192.168.29.29:3000/
+- via: pushState
+
+## 2026-08-23 07:32:17.988Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"/RRB NTPC 2024 notification live/SSC CGL Tier 2 admit card released/UPSC CSE prelims answer key published/Delhi Police SI physical test schedule out/State Police Constable 8,200 vacancies/RRB NTPC 2024 notification live/SSC CGL Tier 2 admit card released/UPSC CSE prelims answer key published/Delhi Police SI physical test schedule out/State Police Constable 8,200 vacancies"}
+
+## 2026-08-23 07:32:22.061Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:32:22.063Z navigate
+- url: http://192.168.29.29:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:32:22.177Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:23.080Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:32:23.107Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:28.810Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Translator / Hindi Translator"}
+
+## 2026-08-23 07:32:28.813Z navigate
+- url: http://192.168.29.29:3000/jobs/railway/junior-translator-hindi-translator
+- via: pushState
+
+## 2026-08-23 07:32:28.869Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:28.942Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:29.113Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:32:29.114Z navigate
+- url: http://192.168.29.29:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:32:29.166Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:29.834Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:32:29.853Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:30.601Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Translator / Hindi Translator"}
+
+## 2026-08-23 07:32:30.602Z navigate
+- url: http://192.168.29.29:3000/jobs/railway/junior-translator-hindi-translator
+- via: pushState
+
+## 2026-08-23 07:32:30.621Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:30.709Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:31.261Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:32:31.287Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:32.454Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Staff & Welfare Inspector"}
+
+## 2026-08-23 07:32:32.455Z navigate
+- url: http://192.168.29.29:3000/jobs/railway/staff-welfare-inspector
+- via: pushState
+
+## 2026-08-23 07:32:32.477Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:32.523Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:33.181Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:32:33.201Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:34.013Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Chief Law Assistant"}
+
+## 2026-08-23 07:32:34.014Z navigate
+- url: http://192.168.29.29:3000/jobs/railway/chief-law-assistant
+- via: pushState
+
+## 2026-08-23 07:32:34.035Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:34.108Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:32:37.150Z click
+- element: {"tag":"article","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Home/Railway/Chief Law AssistantChief Law AssistantRRB and RRC recruitment across technical, non-technical and Level 1 posts.Exam: RRB Isolated Categories recruitmentAuthority: Railway Recruitment BoardsJob profile: Chief Law Assistant work follows the operational, technical or public-service responsibilities of the education, legal, publicity, welfare, translation and ministerial services.Career: Promotion, transfer and service conditions follow the applicable service rules and recruitment notification.This is evergreen post information. No current vacancy, date, fee or active application is claimed here; check the official source for live recruitment.Verify details on the official authority websiteJob OverviewChief Law Assistant is a specialist Railway isolated-category post. The current CEN sets the subject, professional qualification, language, skill, teaching or experience requirements for the particular post.Eligibility CriteriaThe post-specific CEN controls degree, subject, teacher training, language, shorthand, experience, age and other conditions.Exam PatternStageComponentMarks / DurationRecruitment stagesComputer-based examination followed by a skill, teaching, translation or performance test where prescribed, then verification and medical assessment.Read the current official notificationSyllabusGeneral awareness and railway knowledgeProfessional or subject knowledgeLanguage, teaching, translation or skill content as notifiedApplication Process1Read the current notification on the recruiting authority website before applying.2Complete the authority's registration and application form using certificates that match the required details.3Attend only the stages listed in the current notification and retain the application and admit-card records.4Complete document verification and any applicable medical or skill assessment after shortlisting.Important DatesRecruitment cycleVaries; check the official authority calendar and notificationSalary and BenefitsPay leve..."}
+
+## 2026-08-23 07:32:37.519Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Verify details on the official authority website"}
+
+## 2026-08-23 07:32:58.802Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:32:58.838Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:33:03.149Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Commercial Cum Ticket Clerk"}
+
+## 2026-08-23 07:33:03.151Z navigate
+- url: http://192.168.29.29:3000/jobs/railway/commercial-cum-ticket-clerk
+- via: pushState
+
+## 2026-08-23 07:33:03.180Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:33:03.259Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:33:04.254Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:33:04.282Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:33:05.043Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Accounts Clerk Cum Typist"}
+
+## 2026-08-23 07:33:05.044Z navigate
+- url: http://192.168.29.29:3000/jobs/railway/accounts-clerk-cum-typist
+- via: pushState
+
+## 2026-08-23 07:33:05.070Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:33:05.130Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:33:05.948Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-23 07:33:05.949Z navigate
+- url: http://192.168.29.29:3000/jobs/police
+- via: pushState
+
+## 2026-08-23 07:33:07.232Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-08-23 07:33:07.232Z navigate
+- url: http://192.168.29.29:3000/jobs/upsc
+- via: pushState
+
+## 2026-08-23 07:33:07.750Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC"}
+
+## 2026-08-23 07:33:07.751Z navigate
+- url: http://192.168.29.29:3000/jobs/ssc
+- via: pushState
+
+## 2026-08-23 07:33:08.293Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC"}
+
+## 2026-08-23 07:33:08.294Z navigate
+- url: http://192.168.29.29:3000/jobs/ssc
+- via: replaceState
+
+## 2026-08-23 07:33:08.805Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Banking"}
+
+## 2026-08-23 07:33:08.806Z navigate
+- url: http://192.168.29.29:3000/jobs/banking
+- via: pushState
+
+## 2026-08-23 07:33:09.742Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Defence"}
+
+## 2026-08-23 07:33:09.743Z navigate
+- url: http://192.168.29.29:3000/jobs/defence
+- via: pushState
+
+## 2026-08-23 07:33:10.738Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Teaching"}
+
+## 2026-08-23 07:33:10.739Z navigate
+- url: http://192.168.29.29:3000/jobs/teaching
+- via: pushState
+
+## 2026-08-23 07:33:11.785Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Postal"}
+
+## 2026-08-23 07:33:11.786Z navigate
+- url: http://192.168.29.29:3000/jobs/postal
+- via: pushState
+
+## 2026-08-23 07:33:13.271Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:33:13.272Z navigate
+- url: http://192.168.29.29:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 07:33:13.333Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:33:14.191Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open Railway posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:33:14.211Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:35:19.160Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 07:35:19.161Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: replaceState
+
+## 2026-08-23 07:35:19.174Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:37:38.427Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway TutorialNTPC - UNDER GRADUATECommercial Cum Ticket ClerkAccounts Clerk Cum TypistJunior Clerk Cum TypistTrains ClerkNTPC - GRADUATEChief Commercial Cum Ticket SupervisorStation MasterGoods Train ManagerJunior Account Assistant Cum TypistSenior Clerk Cum TypistSenior Commercial Cum Ticket ClerkTECHNICAL & ENGINEERINGAssistant Loco Pilot (ALP)TechnicianJunior Engineer (JE)Depot Material Superintendent (DMS)Chemical & Metallurgical Assistant (CMA)Chemical SupervisorMetallurgical SupervisorJUNIOR ENGINEER - SPECIALIZATIONSJE CivilJE P-WayJE WorksJE ElectricalJE MechanicalJE SignalJE TelecommunicationJE S&TJE Track MachineJE Carriage & WagonJE DieselJE WorkshopOther JE DisciplinesLEVEL-1 / GROUP-DTrack Maintainer Grade IVPointsmanAssistant P-WayAssistant BridgeAssistant Track MachineAssistant C&WAssistant Loco ShedAssistant OperationsAssistant TL & ACAssistant Signal & TelecomOther Assistant PostsSECTION CONTROLLERSection ControllerRPFRPF ConstableRPF Sub Inspector (SI)PARAMEDICALNursing SuperintendentPharmacistHealth & Malaria InspectorLaboratory AssistantRadiographer / X-Ray TechnicianECG TechnicianDialysis TechnicianDieticianPhysiotherapistDental HygienistOccupational TherapistAudiologist & Speech TherapistOther Paramedical PostsMINISTERIAL & ISOLATED CATEGORIESJunior Translator / Hindi TranslatorSenior Publicity InspectorStaff & Welfare InspectorChief Law AssistantLibrarianPrimary TeacherTrained Graduate Teacher (TGT)Post Graduate Teacher (PGT)Physical Training InstructorMusic TeacherJunior StenographerSenior StenographerLaboratory AssistantOther Isolated PostsAPPRENTICE / RRCRRC ApprenticeAct ApprenticeTrade ApprenticeSPECIAL RECRUITMENTSports QuotaScouts & Guides QuotaCultural QuotaOther Special RecruitmentHome/Railway/Commercial Cum Ticket ClerkCommercial Cum Ticket ClerkRRB and RRC recruitment across technical, non-technical and Level 1 posts.Exam: RRB NTPC recruitmentAuthority: Railway Recruitment BoardsJob profile: Ticket issue and checking support, pas..."}
+
+## 2026-08-23 07:40:10.035Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Home"}
+
+## 2026-08-23 07:40:10.035Z navigate
+- url: http://localhost:3000/
+- via: pushState
+
+## 2026-08-23 07:42:42.938Z click
+- element: {"tag":"section","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sarkari Naukri ReferenceEvery government exam,documentedstep by step.Eligibility, exam pattern, syllabus, application process, important dates and pay level for central and state government posts, written in plain language and organised like a manual.Start with Police jobs Browse SSC examsMost read this weekPolice ConstablePoliceCommercial Cum Ticket ClerkRailwaySSC CGLSSCIAS - Civil Services ExamUPSCIBPS PO / Management TraineeBankingNDA and Naval Academy Officer EntryDefenceCTET Paper I and Paper IITeachingIndia Post Gramin Dak SevakPostalDRDO Scientist BDRDOISRO Scientist / Engineer SCISROPSU Engineer through GATEPSUCivil Judge / Judicial ServiceJudiciaryGovernment Junior EngineerTechnical JobsNursing OfficerMedical JobsJunior Assistant / ClerkClerk JobsState Government Assistant / ClerkState GovernmentGovernment Jobs after 10th, 12th, ITI or GraduationOther Government Jobs"}
+
+## 2026-08-23 07:45:27.698Z load
+- url: http://192.168.29.29:3000/jobs/railway
+
+## 2026-08-23 07:45:28.365Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://192.168.29.29:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://192.168.29.29:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://192.168.29.29:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://192.168.29.29:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 07:56:29.972Z load
+- url: http://192.168.29.29:3000/
+
+## 2026-08-23 07:56:30.312Z navigate
+- url: http://192.168.29.29:3000/
+- via: replaceState
+
+## 2026-08-23 07:57:48.044Z load
+- url: http://127.0.0.1:3000/disclaimer
+
+## 2026-08-23 07:57:48.068Z load
+- url: http://localhost:3000/
+
+## 2026-08-23 10:01:54.763Z click
+- element: {"tag":"main","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"/RRB NTPC 2024 notification live/SSC CGL Tier 2 admit card released/UPSC CSE prelims answer key published/Delhi Police SI physical test schedule out/State Police Constable 8,200 vacancies/RRB NTPC 2024 notification live/SSC CGL Tier 2 admit card released/UPSC CSE prelims answer key published/Delhi Police SI physical test schedule out/State Police Constable 8,200 vacanciesSarkari Naukri ReferenceEvery government exam,documentedstep by step.Eligibility, exam pattern, syllabus, application process, important dates and pay level for central and state government posts, written in plain language and organised like a manual.Start with Police jobs Browse SSC examsMost read this weekPolice ConstablePoliceCommercial Cum Ticket ClerkRailwaySSC CGLSSCIAS - Civil Services ExamUPSCIBPS PO / Management TraineeBankingNDA and Naval Academy Officer EntryDefenceCTET Paper I and Paper IITeachingIndia Post Gramin Dak SevakPostalDRDO Scientist BDRDOISRO Scientist / Engineer SCISROPSU Engineer through GATEPSUCivil Judge / Judicial ServiceJudiciaryGovernment Junior EngineerTechnical JobsNursing OfficerMedical JobsJunior Assistant / ClerkClerk JobsState Government Assistant / ClerkState GovernmentGovernment Jobs after 10th, 12th, ITI or GraduationOther Government JobsCategory handbooksEach handbook opens in a documentation layout with a sticky sidebar of posts inside that service.01Police JobsState & central police recruitment, constable to inspector grade.Police Constable  |  Police Head Constable  |  Police Sub-Inspector  |  Police Inspector  |  CAPF Assistant Commandant  |  UP Police Constable  |  Bihar Police Constable02Railway JobsRRB and RRC recruitment across technical, non-technical and Level 1 posts.Commercial Cum Ticket Clerk  |  Accounts Clerk Cum Typist  |  Junior Clerk Cum Typist  |  Trains Clerk  |  Chief Commercial Cum Ticket Supervisor  |  Station Master  |  Goods Train Manager  |  Junior Account Assistant Cum Typist  |  Senior Clerk Cum Typist  |  Senior Commercial Cum Tick..."}
+
+## 2026-08-23 10:01:54.989Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sarkari Naukri ReferenceEvery government exam,documentedstep by step.Eligibility, exam pattern, syllabus, application process, important dates and pay level for central and state government posts, written in plain language and organised like a manual.Start with Police jobs Browse SSC examsMost read this weekPolice ConstablePoliceCommercial Cum Ticket ClerkRailwaySSC CGLSSCIAS - Civil Services ExamUPSCIBPS PO / Management TraineeBankingNDA and Naval Academy Officer EntryDefenceCTET Paper I and Paper IITeachingIndia Post Gramin Dak SevakPostalDRDO Scientist BDRDOISRO Scientist / Engineer SCISROPSU Engineer through GATEPSUCivil Judge / Judicial ServiceJudiciaryGovernment Junior EngineerTechnical JobsNursing OfficerMedical JobsJunior Assistant / ClerkClerk JobsState Government Assistant / ClerkState GovernmentGovernment Jobs after 10th, 12th, ITI or GraduationOther Government Jobs"}
+
+## 2026-08-23 10:01:55.395Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sarkari Naukri ReferenceEvery government exam,documentedstep by step.Eligibility, exam pattern, syllabus, application process, important dates and pay level for central and state government posts, written in plain language and organised like a manual.Start with Police jobs Browse SSC examsMost read this weekPolice ConstablePoliceCommercial Cum Ticket ClerkRailwaySSC CGLSSCIAS - Civil Services ExamUPSCIBPS PO / Management TraineeBankingNDA and Naval Academy Officer EntryDefenceCTET Paper I and Paper IITeachingIndia Post Gramin Dak SevakPostalDRDO Scientist BDRDOISRO Scientist / Engineer SCISROPSU Engineer through GATEPSUCivil Judge / Judicial ServiceJudiciaryGovernment Junior EngineerTechnical JobsNursing OfficerMedical JobsJunior Assistant / ClerkClerk JobsState Government Assistant / ClerkState GovernmentGovernment Jobs after 10th, 12th, ITI or GraduationOther Government Jobs"}
+
+## 2026-08-23 10:01:58.175Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-23 10:01:58.177Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-23 10:01:58.981Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-08-23 10:01:58.981Z navigate
+- url: http://localhost:3000/jobs/upsc
+- via: pushState
+
+## 2026-08-23 10:01:59.682Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-23 10:01:59.683Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-23 10:02:00.341Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-23 10:02:00.342Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-08-23 10:02:00.355Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787470036440:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787470036440:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787470036440:70:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-23 10:02:01.136Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-23 10:02:01.137Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-23 10:02:01.923Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-08-23 10:02:01.924Z navigate
+- url: http://localhost:3000/jobs/upsc
+- via: pushState
+
+## 2026-08-23 10:02:02.634Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC"}
+
+## 2026-08-23 10:02:02.635Z navigate
+- url: http://localhost:3000/jobs/ssc
+- via: pushState
+
+## 2026-08-23 10:02:03.323Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Banking"}
+
+## 2026-08-23 10:02:03.324Z navigate
+- url: http://localhost:3000/jobs/banking
+- via: pushState
+
+## 2026-08-23 10:02:04.067Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Defence"}
+
+## 2026-08-23 10:02:04.068Z navigate
+- url: http://localhost:3000/jobs/defence
+- via: pushState
+

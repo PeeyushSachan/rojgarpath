@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { NavLink, useParams } from 'react-router-dom';
 import { Menu } from 'lucide-react';
 import { categories, navCategories, slugify } from '@/data/jobs';
@@ -7,10 +7,61 @@ import { useSidebar } from '@/components/SidebarProvider';
 const available = new Set(categories.map((c) => c.slug));
 
 export default function CategoryNav() {
+    const categoryNavRef = useRef(null);
+    const dragRef = useRef({ active: false, dragged: false, pointerId: null, startX: 0, lastX: 0 });
     const { category } = useParams();
     const { open, setOpen } = useSidebar();
     const activeCat = categories.find((c) => c.slug === category);
     const hamburgerLabel = activeCat ? `${activeCat.name} posts` : 'Posts';
+
+    const stopDragging = (event) => {
+        const drag = dragRef.current;
+        if (event?.pointerType && event.pointerType !== 'mouse') return;
+        if (drag.pointerId !== null && categoryNavRef.current?.hasPointerCapture(drag.pointerId)) {
+            categoryNavRef.current.releasePointerCapture(drag.pointerId);
+        }
+        drag.active = false;
+        drag.pointerId = null;
+        if (drag.dragged) {
+            setTimeout(() => {
+                if (!dragRef.current.active) dragRef.current.dragged = false;
+            }, 0);
+        }
+    };
+
+    const handlePointerDown = (event) => {
+        if (event.pointerType !== 'mouse') return;
+        dragRef.current = {
+            active: true,
+            dragged: false,
+            pointerId: event.pointerId,
+            startX: event.clientX,
+            lastX: event.clientX,
+        };
+        window.addEventListener('pointerup', stopDragging, { once: true });
+        window.addEventListener('pointercancel', stopDragging, { once: true });
+    };
+
+    const handlePointerMove = (event) => {
+        const drag = dragRef.current;
+        if (!drag.active || drag.pointerId !== event.pointerId) return;
+        const movement = event.clientX - drag.startX;
+        if (!drag.dragged && Math.abs(movement) < 8) return;
+        if (!drag.dragged) {
+            drag.dragged = true;
+            categoryNavRef.current?.setPointerCapture(event.pointerId);
+        }
+        event.preventDefault();
+        categoryNavRef.current.scrollLeft -= event.clientX - drag.lastX;
+        drag.lastX = event.clientX;
+    };
+
+    const handleClick = (event) => {
+        if (!dragRef.current.dragged) return;
+        event.preventDefault();
+        event.stopPropagation();
+        dragRef.current.dragged = false;
+    };
 
     return (
         <nav aria-label="Job categories" className="bg-[#0d1117] text-slate-200">
@@ -29,7 +80,15 @@ export default function CategoryNav() {
                     </button>
                 )}
 
-                <ul className="no-scrollbar flex w-full flex-nowrap items-stretch overflow-x-auto overflow-y-hidden overscroll-x-contain whitespace-nowrap">
+                <ul
+                    ref={categoryNavRef}
+                    onPointerDown={handlePointerDown}
+                    onPointerMove={handlePointerMove}
+                    onPointerUp={stopDragging}
+                    onPointerCancel={stopDragging}
+                    onClick={handleClick}
+                    className="no-scrollbar flex w-full flex-nowrap items-stretch overflow-x-auto overflow-y-hidden overscroll-x-contain whitespace-nowrap cursor-grab active:cursor-grabbing active:select-none"
+                >
                     {navCategories.map((name) => {
                         const slug = slugify(name);
                         const ready = available.has(slug);

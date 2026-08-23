@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import CategoryPage from './pages/CategoryPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import DisclaimerPage from './pages/DisclaimerPage';
 import LoginPage from './pages/LoginPage';
 import { SidebarProvider } from './components/SidebarProvider';
 
@@ -17,6 +18,7 @@ function App() {
                     <Route path="/" element={<HomePage />} />
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/contact" element={<ContactPage />} />
+                    <Route path="/disclaimer" element={<DisclaimerPage />} />
                     <Route path="/login" element={<LoginPage />} />
                     <Route path="/jobs/:category" element={<CategoryPage />} />
                     <Route path="/jobs/:category/:post" element={<CategoryPage />} />
