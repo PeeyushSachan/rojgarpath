@@ -98,7 +98,7 @@ export default function CategoryPage() {
                     </div>
 
                     {cat.groups.map((g) => {
-                        const items = g.posts.filter((p) => p.title.toLowerCase().includes(q));
+                        const items = g.posts.filter((p) => (p.searchText || p.title).toLowerCase().includes(q));
                         if (items.length === 0) return null;
                         const isClosed = collapsed[g.name];
                         return (
@@ -136,7 +136,7 @@ export default function CategoryPage() {
                             </div>
                         );
                     })}
-                    {q && cat.groups.every((g) => g.posts.every((p) => !p.title.toLowerCase().includes(q))) && (
+                    {q && cat.groups.every((g) => g.posts.every((p) => !(p.searchText || p.title).toLowerCase().includes(q))) && (
                         <p className="px-1 text-sm text-slate-500">No post matches &quot;{filter}&quot;.</p>
                     )}
                 </aside>

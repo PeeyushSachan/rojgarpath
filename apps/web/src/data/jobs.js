@@ -855,7 +855,11 @@ export const categories = [
 categories.push(...expandedCategories);
 Object.entries(categoryAdditions).forEach(([slug, posts]) => {
     const category = categories.find((item) => item.slug === slug);
-    if (category) category.groups.push({ name: 'Additional official routes', posts });
+    if (category) {
+        category.groups = slug === 'railway'
+            ? posts
+            : [...category.groups, { name: 'Additional official routes', posts }];
+    }
 });
 
 export const navCategories = [
