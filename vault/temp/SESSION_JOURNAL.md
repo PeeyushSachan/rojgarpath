@@ -1106,3 +1106,95 @@
 ## 2026-08-23 03:36:13.447Z click
 - element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
 
+## 2026-08-23 03:40:17.718Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:40:18.599Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:40:19.122Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:40:19.692Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:40:24.249Z load
+- url: http://localhost:3000/jobs/railway
+
+## 2026-08-23 03:40:26.087Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:40:27.348Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:40:27.834Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:40:35.127Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:40:35.632Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:40:42.347Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:40:43.559Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-08-23 03:40:43.560Z navigate
+- url: http://localhost:3000/jobs/upsc
+- via: pushState
+
+## 2026-08-23 03:40:53.508Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:04.083Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:05.245Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:16.873Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:17.353Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:17.808Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:20.395Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:21.433Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:22.061Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:25.000Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:25.479Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:26.293Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:26.729Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-08-23 03:41:29.045Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open UPSC posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-08-23 03:41:31.203Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Home"}
+
+## 2026-08-23 03:41:31.204Z navigate
+- url: http://localhost:3000/
+- via: pushState
+
+## 2026-08-23 03:41:32.268Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
