@@ -31,6 +31,94 @@ function Bullets({ items }) {
     );
 }
 
+const toneClasses = {
+    accent: 'border-[#e07b1f]/30 bg-[#e07b1f]/15 text-[#b8600f]',
+    warning: 'border-amber-300 bg-amber-50 text-amber-800',
+    success: 'border-emerald-300 bg-emerald-50 text-emerald-800',
+};
+
+function CellValue({ value }) {
+    if (value && typeof value === 'object' && 'text' in value) {
+        const inner = value.href ? (
+            <a href={value.href} target="_blank" rel="noreferrer" className="break-all font-medium text-[#0b2b5b] hover:text-[#b8600f]">
+                {value.text}
+            </a>
+        ) : (
+            <span>{value.text}</span>
+        );
+
+        if (value.tone && toneClasses[value.tone]) {
+            return <span className={`inline-block rounded-md border px-2 py-1 text-sm font-semibold ${toneClasses[value.tone]}`}>{inner}</span>;
+        }
+        return inner;
+    }
+    return <span>{value}</span>;
+}
+
+function DataTable({ columns, rows }) {
+    return (
+        <div className="overflow-x-auto rounded-md border border-slate-200">
+            <table className="w-full min-w-[34rem] text-left text-sm">
+                <thead className="bg-[#0b2b5b] text-white">
+                    <tr>
+                        {columns.map((col) => (
+                            <th key={col} className="px-4 py-3 font-semibold">{col}</th>
+                        ))}
+                    </tr>
+                </thead>
+                <tbody>
+                    {rows.map((row, idx) => (
+                        <tr key={`${row[0]}-${idx}`} className="border-t border-slate-200 odd:bg-slate-50/70">
+                            {row.map((cell, cIdx) => (
+                                <td key={`${row[0]}-${cIdx}`} className={`px-4 py-3 text-slate-700 ${cIdx === 0 ? 'font-medium text-[#0b2b5b]' : ''}`}>
+                                    <CellValue value={cell} />
+                                </td>
+                            ))}
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </div>
+    );
+}
+
+function SectionFooter({ source, lastVerifiedAt }) {
+    return (
+        <p className="mt-4 text-xs leading-relaxed text-slate-500">
+            <span className="font-semibold text-slate-700">Source:</span> {source}<br />
+            <span className="font-semibold text-slate-700">Last verified:</span> {lastVerifiedAt}
+        </p>
+    );
+}
+
+function AlertBox({ title, text, tone = 'warning' }) {
+    const classMap = {
+        warning: 'border-amber-300 bg-amber-50 text-amber-900',
+        info: 'border-blue-300 bg-blue-50 text-blue-900',
+    };
+
+    return (
+        <div className={`rounded-md border px-4 py-3 ${classMap[tone] || classMap.warning}`}>
+            <p className="font-semibold">{title}</p>
+            <p className="mt-1 text-sm leading-relaxed">{text}</p>
+        </div>
+    );
+}
+
+function GuideImage({ image }) {
+    if (!image?.src) return null;
+    return (
+        <figure className="my-4 overflow-hidden rounded-md border border-slate-200 bg-slate-50">
+            <img src={image.src} alt={image.alt || ''} loading="lazy" className="h-auto w-full object-cover" />
+            {image.caption && (
+                <figcaption className="border-t border-slate-200 px-3 py-2 text-xs leading-relaxed text-slate-600">
+                    {image.caption}
+                </figcaption>
+            )}
+        </figure>
+    );
+}
+
 export default function CategoryPage() {
     const { category, post: postSlug } = useParams();
     const cat = getCategory(category);
@@ -51,6 +139,7 @@ export default function CategoryPage() {
     if (!cat) return <Navigate to="/" replace />;
 
     const q = filter.trim().toLowerCase();
+    const guide = post.guide;
 
     return (
         <SiteChrome>
@@ -155,7 +244,29 @@ export default function CategoryPage() {
                     </h1>
                     <p className="mt-2 text-sm text-slate-500">{cat.tagline}</p>
 
-                    {post.metadata && (
+                    {guide?.intro && (
+                        <p className="mt-4 max-w-[70ch] text-[15px] leading-7 text-slate-700">{guide.intro}</p>
+                    )}
+
+                    {guide?.heroImage && <GuideImage image={guide.heroImage} />}
+
+                    {guide?.quickFacts && (
+                        <div className="mt-6">
+                            <h2 className="font-display text-xl font-bold text-[#0b2b5b] sm:text-2xl">{guide.quickFacts.title}</h2>
+                            <div className="mt-4">
+                                <DataTable columns={['Field', 'Details']} rows={guide.quickFacts.rows} />
+                            </div>
+                            <SectionFooter source={guide.defaultSource} lastVerifiedAt={guide.lastVerifiedAt} />
+                        </div>
+                    )}
+
+                    {guide?.importantNotice && (
+                        <div className="mt-6">
+                            <AlertBox title={guide.importantNotice.title} text={guide.importantNotice.text} tone={guide.importantNotice.tone} />
+                        </div>
+                    )}
+
+                    {post.metadata && !guide && (
                         <div className="mt-6 grid gap-3 border-y border-slate-200 py-4 text-sm sm:grid-cols-2">
                             <p><span className="font-semibold text-[#0b2b5b]">Exam:</span> {post.metadata.exam}</p>
                             <p><span className="font-semibold text-[#0b2b5b]">Authority:</span> {post.metadata.recruitmentAuthority}</p>
@@ -171,81 +282,159 @@ export default function CategoryPage() {
                     )}
 
                     <div className="mt-6 space-y-10 pb-6">
-                        <Section id="overview" title="Job Overview">
-                            <p className="max-w-[62ch] text-[15px] leading-7 text-slate-700">{post.overview}</p>
-                        </Section>
-
-                        <Section id="eligibility" title="Eligibility Criteria">
-                            <Bullets items={post.eligibility} />
-                        </Section>
-
-                        <Section id="pattern" title="Exam Pattern">
-                            <div className="overflow-x-auto rounded-md border border-slate-200">
-                                <table className="w-full min-w-[34rem] text-left text-sm">
-                                    <thead className="bg-[#0b2b5b] text-white">
-                                        <tr>
-                                            <th className="px-4 py-3 font-semibold">Stage</th>
-                                            <th className="px-4 py-3 font-semibold">Component</th>
-                                            <th className="px-4 py-3 font-semibold">Marks / Duration</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {post.pattern.map((row) => (
-                                            <tr key={row[0] + row[1]} className="border-t border-slate-200 odd:bg-slate-50/70">
-                                                <td className="px-4 py-3 font-medium text-[#0b2b5b]">{row[0]}</td>
-                                                <td className="px-4 py-3 text-slate-700">{row[1]}</td>
-                                                <td className="px-4 py-3 text-slate-700">{row[2]}</td>
-                                            </tr>
+                        {guide ? (
+                            <>
+                                {guide.sections.map((sec) => (
+                                    <Section key={sec.id} id={sec.id} title={sec.title}>
+                                        {sec.warning && (
+                                            <div className="mb-4 rounded-md border border-amber-300 bg-amber-50 px-4 py-3 text-sm leading-relaxed text-amber-900">
+                                                {sec.warning}
+                                            </div>
+                                        )}
+                                        {sec.image && <GuideImage image={sec.image} />}
+                                        {sec.images?.map((img) => <GuideImage key={`${sec.id}-${img.src}`} image={img} />)}
+                                        {sec.paragraphs?.map((p) => (
+                                            <p key={p} className="mb-3 max-w-[78ch] text-[15px] leading-7 text-slate-700">{p}</p>
                                         ))}
-                                    </tbody>
-                                </table>
-                            </div>
-                        </Section>
-
-                        <Section id="syllabus" title="Syllabus">
-                            <Bullets items={post.syllabus} />
-                        </Section>
-
-                        <Section id="apply" title="Application Process">
-                            <ol className="space-y-3">
-                                {post.process.map((step, i) => (
-                                    <li key={step} className="flex gap-3 text-[15px] leading-relaxed text-slate-700">
-                                        <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-[#0b2b5b] text-xs font-semibold text-white">
-                                            {i + 1}
-                                        </span>
-                                        <span>{step}</span>
-                                    </li>
+                                        {sec.bullets && <Bullets items={sec.bullets} />}
+                                        {sec.ordered && (
+                                            <ol className="space-y-3">
+                                                {sec.ordered.map((step, i) => (
+                                                    <li key={step} className="flex gap-3 text-[15px] leading-relaxed text-slate-700">
+                                                        <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-[#0b2b5b] text-xs font-semibold text-white">
+                                                            {i + 1}
+                                                        </span>
+                                                        <span>{step}</span>
+                                                    </li>
+                                                ))}
+                                            </ol>
+                                        )}
+                                        {sec.table && (
+                                            <div className="mb-3">
+                                                <DataTable columns={sec.table.columns} rows={sec.table.rows} />
+                                            </div>
+                                        )}
+                                        {sec.subsections?.map((sub) => (
+                                            <div key={sub.title} className="mb-5 mt-4">
+                                                <h3 className="font-display text-lg font-semibold text-[#0b2b5b]">{sub.title}</h3>
+                                                {sub.paragraphs?.map((p) => (
+                                                    <p key={p} className="mb-3 mt-2 max-w-[78ch] text-[15px] leading-7 text-slate-700">{p}</p>
+                                                ))}
+                                                {sub.bullets && <div className="mt-2"><Bullets items={sub.bullets} /></div>}
+                                                {sub.ordered && (
+                                                    <ol className="mt-2 space-y-3">
+                                                        {sub.ordered.map((step, i) => (
+                                                            <li key={step} className="flex gap-3 text-[15px] leading-relaxed text-slate-700">
+                                                                <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-[#0b2b5b] text-xs font-semibold text-white">
+                                                                    {i + 1}
+                                                                </span>
+                                                                <span>{step}</span>
+                                                            </li>
+                                                        ))}
+                                                    </ol>
+                                                )}
+                                                {sub.table && <div className="mt-3"><DataTable columns={sub.table.columns} rows={sub.table.rows} /></div>}
+                                                {sub.note && <p className="mt-3 rounded-md border border-slate-300 bg-slate-50 px-3 py-2 text-sm text-slate-700">{sub.note}</p>}
+                                            </div>
+                                        ))}
+                                        {sec.note && <p className="mt-3 rounded-md border border-slate-300 bg-slate-50 px-3 py-2 text-sm text-slate-700">{sec.note}</p>}
+                                        <SectionFooter source={sec.source || guide.defaultSource} lastVerifiedAt={guide.lastVerifiedAt} />
+                                    </Section>
                                 ))}
-                            </ol>
-                        </Section>
 
-                        <Section id="dates" title="Important Dates">
-                            <ul className="divide-y divide-slate-200 rounded-md border border-slate-200">
-                                {post.dates.map((d) => (
-                                    <li key={d[0]} className="flex flex-wrap items-center justify-between gap-2 px-4 py-3 text-sm">
-                                        <span className="text-slate-700">{d[0]}</span>
-                                        <span className="font-semibold text-[#b8600f]">{d[1]}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </Section>
+                                {guide.faqs && (
+                                    <Section id="faq" title="Frequently Asked Questions">
+                                        <ul className="space-y-3">
+                                            {guide.faqs.map(([qText, aText]) => (
+                                                <li key={qText} className="rounded-md border border-slate-200 bg-slate-50 px-4 py-3">
+                                                    <p className="font-semibold text-[#0b2b5b]">{qText}</p>
+                                                    <p className="mt-1 text-sm leading-relaxed text-slate-700"><CellValue value={aText} /></p>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        <SectionFooter source={guide.defaultSource} lastVerifiedAt={guide.lastVerifiedAt} />
+                                    </Section>
+                                )}
+                            </>
+                        ) : (
+                            <>
+                                <Section id="overview" title="Job Overview">
+                                    <p className="max-w-[62ch] text-[15px] leading-7 text-slate-700">{post.overview}</p>
+                                </Section>
 
-                        <Section id="salary" title="Salary and Benefits">
-                            <Bullets items={post.salary} />
-                        </Section>
+                                <Section id="eligibility" title="Eligibility Criteria">
+                                    <Bullets items={post.eligibility} />
+                                </Section>
 
-                        <Section id="resources" title="Previous Year Papers and Resources">
-                            <ul className="grid gap-3 sm:grid-cols-2">
-                                {post.resources.map((r) => (
-                                    <li
-                                        key={r}
-                                        className="rounded-md border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-700"
-                                    >
-                                        {r}
-                                    </li>
-                                ))}
-                            </ul>
-                        </Section>
+                                <Section id="pattern" title="Exam Pattern">
+                                    <div className="overflow-x-auto rounded-md border border-slate-200">
+                                        <table className="w-full min-w-[34rem] text-left text-sm">
+                                            <thead className="bg-[#0b2b5b] text-white">
+                                                <tr>
+                                                    <th className="px-4 py-3 font-semibold">Stage</th>
+                                                    <th className="px-4 py-3 font-semibold">Component</th>
+                                                    <th className="px-4 py-3 font-semibold">Marks / Duration</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {post.pattern.map((row) => (
+                                                    <tr key={row[0] + row[1]} className="border-t border-slate-200 odd:bg-slate-50/70">
+                                                        <td className="px-4 py-3 font-medium text-[#0b2b5b]">{row[0]}</td>
+                                                        <td className="px-4 py-3 text-slate-700">{row[1]}</td>
+                                                        <td className="px-4 py-3 text-slate-700">{row[2]}</td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </Section>
+
+                                <Section id="syllabus" title="Syllabus">
+                                    <Bullets items={post.syllabus} />
+                                </Section>
+
+                                <Section id="apply" title="Application Process">
+                                    <ol className="space-y-3">
+                                        {post.process.map((step, i) => (
+                                            <li key={step} className="flex gap-3 text-[15px] leading-relaxed text-slate-700">
+                                                <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-[#0b2b5b] text-xs font-semibold text-white">
+                                                    {i + 1}
+                                                </span>
+                                                <span>{step}</span>
+                                            </li>
+                                        ))}
+                                    </ol>
+                                </Section>
+
+                                <Section id="dates" title="Important Dates">
+                                    <ul className="divide-y divide-slate-200 rounded-md border border-slate-200">
+                                        {post.dates.map((d) => (
+                                            <li key={d[0]} className="flex flex-wrap items-center justify-between gap-2 px-4 py-3 text-sm">
+                                                <span className="text-slate-700">{d[0]}</span>
+                                                <span className="font-semibold text-[#b8600f]">{d[1]}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </Section>
+
+                                <Section id="salary" title="Salary and Benefits">
+                                    <Bullets items={post.salary} />
+                                </Section>
+
+                                <Section id="resources" title="Previous Year Papers and Resources">
+                                    <ul className="grid gap-3 sm:grid-cols-2">
+                                        {post.resources.map((r) => (
+                                            <li
+                                                key={r}
+                                                className="rounded-md border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-700"
+                                            >
+                                                {r}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </Section>
+                            </>
+                        )}
 
                         <Section id="related" title="Related Posts in this Category">
                             <div className="flex flex-wrap gap-2">

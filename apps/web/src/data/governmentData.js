@@ -332,6 +332,7 @@ const railwayPost = (title, family, details = {}) => {
         searchText: details.searchText || `${title} ${base.exam} ${family}`,
         pattern: details.pattern || [['Recruitment stages', details.selection || base.selection, 'Read the current official notification']],
         process: details.process || post.process,
+        guide: details.guide || null,
         metadata: {
             ...post.metadata,
             department: details.department || base.department,
@@ -343,10 +344,1146 @@ const railwayPost = (title, family, details = {}) => {
     };
 };
 
+const commercialTicketClerkGuide = {
+    lastVerifiedAt: '2026-08-25',
+    defaultSource: 'Official RRB notices and CEN 07/2025 (NTPC Undergraduate) documents.',
+    intro: 'Commercial Cum Ticket Clerk is an RRB NTPC undergraduate post involving passenger-facing commercial and ticketing-related work at railway stations. The exact duties, posting and service conditions are governed by the applicable railway rules and recruitment notification.',
+    quickFacts: {
+        title: 'Quick Facts: Commercial Cum Ticket Clerk',
+        rows: [
+            ['Post', 'Commercial Cum Ticket Clerk'],
+            ['Recruitment', 'RRB NTPC - Undergraduate'],
+            ['Recruitment Authority', 'Railway Recruitment Boards (RRBs)'],
+            ['Ministry', 'Ministry of Railways, Government of India'],
+            ['Pay Level', { text: 'Level 3', tone: 'accent' }],
+            ['Initial Basic Pay', { text: 'Rs 21,700', tone: 'accent' }],
+            ['Medical Standard', { text: 'B-2', tone: 'accent' }],
+            ['Minimum Qualification', { text: '12th (+2) or equivalent', tone: 'accent' }],
+            ['Typing Test', { text: 'Not applicable to Commercial Cum Ticket Clerk', tone: 'accent' }],
+            ['Selection', { text: 'CBT 1 -> CBT 2 -> Document Verification -> Medical Examination', tone: 'accent' }],
+        ],
+    },
+    importantNotice: {
+        tone: 'warning',
+        title: 'Recruitment-specific details can change',
+        text: 'This page contains evergreen information about the Commercial Cum Ticket Clerk post. Vacancy, application dates, age limits applicable to a particular cycle, fees, exam schedules and other recruitment-specific details must always be verified against the latest RRB notification.',
+    },
+    sections: [
+        {
+            id: 'what-is-cctc',
+            title: 'What Is Commercial Cum Ticket Clerk?',
+            paragraphs: [
+                'Commercial Cum Ticket Clerk is a passenger-facing commercial post in the NTPC undergraduate stream when notified under RRB CEN. The role supports ticketing counters and related commercial processes in railway working environments such as station booking offices and connected commercial units.',
+                'The post exists to support passenger ticketing flow, basic commercial transaction handling, records required under railway commercial rules, and on-ground passenger guidance connected with ticketing and station travel processes.',
+                'Employees may handle ticketing-related public dealing, cash or transaction records as assigned, and procedural compliance work. Scope and workload vary by posting location, station category, and applicable rules.',
+                'The role also involves coordination with station/commercial staff where required for day-to-day operations and record correctness.',
+            ],
+            subsections: [
+                {
+                    title: 'In Simple Words',
+                    bullets: [
+                        'It is a railway ticketing and commercial support role for 12th-level NTPC recruitment.',
+                        'You work with passengers, ticketing processes, and commercial records under railway procedure.',
+                        'It is a public-facing role, not only back-office file work.',
+                    ],
+                },
+            ],
+        },
+        {
+            id: 'job-profile',
+            title: 'Job Profile and Day-to-Day Work',
+            table: {
+                columns: ['Responsibility', 'What it generally involves'],
+                rows: [
+                    ['Passenger ticketing support', 'Supporting ticket issue and passenger ticketing workflows at assigned counters or stations.'],
+                    ['Ticket/account-related work', 'Ticketing transactions and related account entries as assigned under established procedures.'],
+                    ['Commercial records', 'Maintaining required registers, reports or commercial records relevant to assigned duties.'],
+                    ['Passenger assistance', 'Providing travel-related guidance on ticketing processes and basic passenger support.'],
+                    ['Ticketing-process handling', 'Handling ticketing-related processes where applicable under local station workflow.'],
+                    ['Record maintenance', 'Maintaining required records and ensuring data correctness under reporting requirements.'],
+                    ['Cash/commercial transactions', 'Handling cash and commercial transactions as assigned, with accountability.'],
+                    ['Rule compliance', 'Following railway commercial rules, departmental instructions and station procedures.'],
+                    ['Coordination', 'Working with other railway staff where coordination is required for smooth operations.'],
+                ],
+            },
+            note: 'Exact duties can vary by posting, station and applicable railway rules.',
+        },
+        {
+            id: 'eligibility',
+            title: 'Eligibility Criteria',
+            table: {
+                columns: ['Field', 'Requirement'],
+                rows: [
+                    ['Educational Qualification', { text: '12th (+2) or equivalent', tone: 'accent' }],
+                    ['Minimum Marks', '50% aggregate, subject to exceptions specified in the applicable CEN.'],
+                    ['Category/Exception', '50% marks is not insisted upon for SC/ST, Persons with Benchmark Disability, Ex-servicemen and candidates with qualification higher than 12th, as stated in the CEN.'],
+                    ['Qualification Recognition', 'Qualification should be from a recognized board/equivalent as prescribed in the notification.'],
+                ],
+            },
+        },
+        {
+            id: 'age-limit',
+            title: 'Age Limit Framework',
+            paragraphs: [
+                'Do not treat any single age band as a permanent universal rule for this post. Use the current CEN for the active recruitment cycle and cut-off date.',
+            ],
+            subsections: [
+                {
+                    title: 'Normal Age Requirement',
+                    table: {
+                        columns: ['Item', 'Value', 'Note'],
+                        rows: [
+                            ['Normal age framework', 'Use latest applicable CEN', 'This page is evergreen; age conditions are cycle-specific.'],
+                            ['Current recruitment applicable age', 'As notified in CEN 07/2025', 'Check current detailed CEN and corrigendum for final applicability.'],
+                            ['Age cut-off date', 'As notified in CEN 07/2025', 'Cut-off date is notification-specific and must be checked carefully.'],
+                            ['Upper-age relaxation', 'Category/notification specific', 'Apply only the currently notified relaxation rules.'],
+                        ],
+                    },
+                    note: 'Always check the age cut-off date in the current notification.',
+                },
+            ],
+        },
+        {
+            id: 'age-relaxation',
+            title: 'Age Relaxation',
+            table: {
+                columns: ['Category', 'Typical statutory relaxation', 'Verification'],
+                rows: [
+                    ['SC/ST', 'As per Government/RRB rules', 'Verify in current CEN'],
+                    ['OBC-NCL', 'As per Government/RRB rules', 'Verify in current CEN'],
+                    ['PwBD', 'As per applicable rules', 'Verify in current CEN'],
+                    ['Ex-Servicemen', 'As per applicable rules', 'Verify in current CEN'],
+                    ['Other categories', 'As notified', 'Verify in current CEN'],
+                ],
+            },
+            note: 'Do not hardcode one recruitment cycle\'s age-relaxation table as a permanent universal rule.',
+        },
+        {
+            id: 'medical-standard',
+            title: 'Railway Medical Standard: B-2',
+            emphasis: 'high',
+            paragraphs: [
+                'Commercial Cum Ticket Clerk is listed under medical standard B-2 in the NTPC Undergraduate CEN stream for the current cycle.',
+                'Medical fitness is determined only through Railway medical examination as per applicable standards. B-2 does not mean automatic fitness in all cases.',
+            ],
+            table: {
+                columns: ['Parameter', 'B-2 requirement'],
+                rows: [
+                    ['Distant Vision', { text: '6/9, 6/12 with or without glasses', tone: 'accent' }],
+                    ['Near Vision', { text: 'Sn 0.6, 0.6 with or without glasses where applicable', tone: 'accent' }],
+                    ['Other', 'Binocular vision and other prescribed medical tests as per applicable Railway standards.'],
+                    ['Lens power', 'Applicable current Railway medical standard applies.'],
+                ],
+            },
+            note: 'Medical requirements are not the same for every Railway post. Commercial Cum Ticket Clerk is B-2; other posts may have A-3, C-2, or other categories as per notification.',
+        },
+        {
+            id: 'physical-vs-medical',
+            title: 'Physical Requirement vs Medical Fitness',
+            warning: 'Commercial Cum Ticket Clerk does not have the type of physical efficiency test specified for posts such as police/defence recruitment. However, the candidate must satisfy the prescribed Railway medical standard for the post.',
+            table: {
+                columns: ['Item', 'Meaning for this post'],
+                rows: [
+                    ['Physical Test', 'No separate police/defence-style physical efficiency test is prescribed for this post in NTPC UG flow.'],
+                    ['Medical Fitness', 'Mandatory Railway medical examination under prescribed B-2 standards.'],
+                ],
+            },
+        },
+        {
+            id: 'selection-process',
+            title: 'Selection Process',
+            table: {
+                columns: ['Stage', 'Description', 'Important'],
+                rows: [
+                    ['1', { text: 'CBT-1', tone: 'accent' }, 'Screening stage in recruitment process.'],
+                    ['2', { text: 'CBT-2', tone: 'accent' }, 'Further shortlisting stage for next process.'],
+                    ['3', 'Document Verification', 'Original documents are checked as per notification.'],
+                    ['4', 'Railway Medical Examination', 'Medical fitness is assessed for notified standard.'],
+                ],
+            },
+            note: 'Typing Skill Test is not applicable to Commercial Cum Ticket Clerk. In NTPC UG, typing test applies to Accounts Clerk cum Typist and Junior Clerk cum Typist.',
+        },
+        {
+            id: 'cbt1-pattern',
+            title: 'CBT-1 Exam Pattern',
+            table: {
+                columns: ['Subject', 'Questions', 'Marks'],
+                rows: [
+                    ['General Awareness', '40', '40'],
+                    ['Mathematics', '30', '30'],
+                    ['General Intelligence and Reasoning', '30', '30'],
+                    ['Total', { text: '100 Questions', tone: 'accent' }, { text: '100 Marks', tone: 'accent' }],
+                    ['Duration', { text: '90 Minutes', tone: 'accent' }, '-'],
+                    ['PwBD with eligible scribe', '120 Minutes', '-'],
+                    ['Negative marking', { text: '1/3 mark for each wrong answer', tone: 'accent' }, '-'],
+                    ['Question type', 'Objective / Multiple Choice', '-'],
+                ],
+            },
+        },
+        {
+            id: 'cbt2-pattern',
+            title: 'CBT-2 Exam Pattern',
+            table: {
+                columns: ['Subject', 'Questions', 'Marks'],
+                rows: [
+                    ['General Awareness', '50', '50'],
+                    ['Mathematics', '35', '35'],
+                    ['General Intelligence and Reasoning', '35', '35'],
+                    ['Total', { text: '120 Questions', tone: 'accent' }, { text: '120 Marks', tone: 'accent' }],
+                    ['Duration', '90 Minutes', '-'],
+                    ['PwBD with eligible scribe', '120 Minutes', '-'],
+                    ['Negative marking', { text: '1/3 per wrong answer', tone: 'accent' }, '-'],
+                ],
+            },
+            paragraphs: [
+                'CBT-1 is screening in nature.',
+                'CBT-2 is used for further shortlisting.',
+                'The CEN indicates shortlisting for CBT-2 based on normalized CBT-1 marks, with target shortlisting up to 15 times community-wise vacancies, subject to RRB discretion as stated in notification.',
+            ],
+        },
+        {
+            id: 'syllabus',
+            title: 'Syllabus (CBT-1 and CBT-2)',
+            subsections: [
+                {
+                    title: 'Mathematics',
+                    bullets: [
+                        'Number System', 'Decimals', 'Fractions', 'LCM', 'HCF', 'Ratio and Proportion', 'Percentage', 'Mensuration',
+                        'Time and Work', 'Time and Distance', 'Simple Interest', 'Compound Interest', 'Profit and Loss', 'Elementary Algebra',
+                        'Geometry', 'Trigonometry', 'Elementary Statistics', 'Other topics explicitly listed in the current notification.',
+                    ],
+                },
+                {
+                    title: 'General Intelligence and Reasoning',
+                    bullets: [
+                        'Analogies', 'Number Series', 'Alphabetical Series', 'Coding-Decoding', 'Mathematical Operations', 'Similarities and Differences',
+                        'Relationships', 'Analytical Reasoning', 'Syllogism', 'Jumbling', 'Venn Diagrams', 'Puzzles', 'Data Sufficiency',
+                        'Statement-Conclusion', 'Courses of Action', 'Decision Making', 'Maps', 'Graph Interpretation',
+                    ],
+                },
+                {
+                    title: 'General Awareness',
+                    bullets: [
+                        'Current Affairs', 'National and International Events', 'Games and Sports', 'Indian Art and Culture', 'Indian Literature',
+                        'Monuments and Places', 'General Science', 'Life Science up to 10th CBSE', 'Indian History', 'Freedom Struggle',
+                        'Geography of India and World', 'Indian Polity and Constitution', 'Indian Economy', 'Environment', 'Space',
+                        'Nuclear Programme', 'UN and other important organizations', 'Computer basics', 'Computer applications',
+                        'Common abbreviations', 'Transport Systems in India', 'Government schemes/programmes',
+                        'Important Indian Government/Public Sector organizations', 'Flora and Fauna', 'Famous personalities',
+                        'Scientific and technological developments',
+                    ],
+                },
+            ],
+        },
+        {
+            id: 'strategy',
+            title: 'Preparation Strategy',
+            note: 'This is exam preparation guidance, not an official Railway rule.',
+            subsections: [
+                {
+                    title: 'Beginner Priority',
+                    ordered: [
+                        'Basic Maths',
+                        'Basic Reasoning',
+                        'Static GK',
+                        'General Science',
+                        'Current Affairs',
+                        'Previous Year Questions',
+                        'Mock Tests',
+                    ],
+                },
+            ],
+            paragraphs: [
+                'Start with concept clarity in arithmetic and reasoning, then move to mixed practice. Build a static-GK and science base before high-frequency current affairs revision.',
+                'After fundamentals, use timed sectional tests and then full-length mocks to improve speed, selection accuracy and negative-mark control.',
+            ],
+        },
+        {
+            id: 'books',
+            title: 'Recommended Books and Resources',
+            note: 'These are preparation recommendations, not official RRB-endorsed books.',
+            table: {
+                columns: ['Subject', 'Suggested Resource Type', 'What to Study', 'How to Use'],
+                rows: [
+                    ['Mathematics', 'A standard SSC/Railway quantitative aptitude book', 'Arithmetic + practice', 'Learn each chapter and solve mixed timed sets.'],
+                    ['Reasoning', 'A standard verbal/non-verbal reasoning book', 'Topic-wise questions', 'Build topic accuracy before attempting mixed mocks.'],
+                    ['General Awareness', 'A standard one-volume general knowledge reference', 'Static GK', 'Create short revision notes and weekly revision cycles.'],
+                    ['General Science', 'NCERT or school-level science reference', 'Physics, Chemistry, Biology basics', 'Focus on conceptual clarity and factual revision lists.'],
+                    ['Current Affairs', 'Reliable monthly current affairs source', 'Recent national/international events', 'Revise monthly compendiums with weekly MCQ practice.'],
+                    ['Previous Year Papers', 'RRB NTPC previous-year paper compilation', 'Exam familiarity + question patterns', 'Use as timed practice and post-test error analysis.'],
+                ],
+            },
+        },
+        {
+            id: 'previous-papers',
+            title: 'Previous Year Papers and Practice',
+            bullets: [
+                'CBT-1 previous year papers',
+                'CBT-2 previous year papers',
+                'Shift-wise practice',
+                'Topic-wise practice',
+                'Mock tests',
+            ],
+            paragraphs: [
+                'Use previous papers to identify repeated concepts, difficulty level and time-management requirements.',
+            ],
+        },
+        {
+            id: 'qualifying-marks',
+            title: 'Minimum Qualifying Percentage',
+            table: {
+                columns: ['Category', 'Minimum qualifying percentage (CEN 07/2025)'],
+                rows: [
+                    ['UR', '40%'],
+                    ['EWS', '40%'],
+                    ['OBC-NCL', '30%'],
+                    ['SC', '30%'],
+                    ['ST', '25%'],
+                ],
+            },
+            paragraphs: [
+                'PwBD relaxation: 2 marks where applicable under the notification\'s stated shortage condition.',
+                'These are minimum qualifying percentages, not final selection cut-offs.',
+                'Actual competitive cut-off varies by recruitment cycle, RRB, category, vacancies and candidate performance.',
+            ],
+        },
+        {
+            id: 'latest-recruitment',
+            title: 'Latest Recruitment (Current Cycle Information)',
+            warning: 'This section is recruitment-specific and can change. Always verify on the latest official RRB notice page.',
+            table: {
+                columns: ['Field', 'Current information'],
+                rows: [
+                    ['Recruitment', 'CEN 07/2025 NTPC Undergraduate'],
+                    ['Status', { text: 'Check official RRB page for latest status', tone: 'warning' }],
+                    ['Post', 'Commercial Cum Ticket Clerk'],
+                    ['Vacancy', { text: 'Use the post-wise vacancy table published in the current CEN/zone notice', tone: 'warning' }],
+                    ['Application period', { text: 'Opened: 28-10-2025; initial close: 27-11-2025 (check corrigendum for modifications)', tone: 'warning' }],
+                    ['Exam status', { text: 'CBT-1 schedule/revised schedule and call-letter notices released in 2026 on official RRB pages', tone: 'warning' }],
+                    ['Notification', 'CEN 07/2025 official PDF (English/Hindi)'],
+                    ['Apply', { text: 'Only through official RRB/rrbapply links when window is active', tone: 'warning' }],
+                ],
+            },
+            note: 'Do not treat old-cycle vacancy numbers as permanent post attributes. Vacancy is recruitment-specific.',
+            source: 'RRB Mumbai and RRB Bhubaneswar official CEN 07/2025 notice pages and linked documents.',
+        },
+        {
+            id: 'salary',
+            title: 'Salary Structure',
+            table: {
+                columns: ['Field', 'Information'],
+                rows: [
+                    ['Pay Level', { text: 'Level 3', tone: 'accent' }],
+                    ['Initial Basic Pay', { text: 'Rs 21,700', tone: 'accent' }],
+                    ['Allowances', 'As admissible under applicable Railway/Government rules.'],
+                    ['In-hand salary', { text: 'No fixed universal figure should be assumed', tone: 'warning' }],
+                    ['Potential earnings', 'Depend on allowances, deductions, posting and applicable rules.'],
+                ],
+            },
+            paragraphs: [
+                'Basic pay is not the same as in-hand salary.',
+            ],
+        },
+        {
+            id: 'career',
+            title: 'Promotion and Career Growth',
+            paragraphs: [
+                'Promotion opportunities are governed by applicable Railway service rules and departmental procedures.',
+                'Career progression depends on factors such as seniority, departmental opportunities, selection procedures, zone/railway needs and service conditions.',
+                'Do not assume a guaranteed promotion timeline on a fixed-year basis.',
+            ],
+        },
+        {
+            id: 'posting',
+            title: 'Job Location and Posting',
+            table: {
+                columns: ['Factor', 'What it means'],
+                rows: [
+                    ['RRB', 'Recruitment board/railway chosen in the application.'],
+                    ['Zone/Railway', 'Depends on recruitment notification and allocation process.'],
+                    ['Posting', 'Based on allocation and administrative requirements.'],
+                    ['Transfer', 'Subject to applicable Railway rules and service conditions.'],
+                ],
+            },
+            paragraphs: [
+                'Railway recruitment is board/zone linked. Candidates should not assume free station choice after selection.',
+            ],
+        },
+        {
+            id: 'skills',
+            title: 'Useful Skills for the Role',
+            note: 'These are useful working skills, not mandatory eligibility unless officially notified.',
+            bullets: [
+                'Basic computer usage',
+                'Customer handling',
+                'Communication',
+                'Numerical accuracy',
+                'Cash/accounting discipline',
+                'Record keeping',
+                'Attention to detail',
+                'Ability to work under pressure',
+                'Public dealing',
+            ],
+        },
+        {
+            id: 'pros-challenges',
+            title: 'Advantages and Challenges',
+            subsections: [
+                {
+                    title: 'Advantages',
+                    table: {
+                        columns: ['Point', 'Details'],
+                        rows: [
+                            ['Government employment framework', 'Service framework under Railway/Government rules.'],
+                            ['Railway service benefits', 'Benefits as applicable under current rules.'],
+                            ['Structured pay level', 'Level-based pay system with notified rules.'],
+                            ['Passenger-facing role', 'Regular public interaction and station support responsibilities.'],
+                            ['Career progression opportunities', 'Progression available through service pathways and rules.'],
+                        ],
+                    },
+                },
+                {
+                    title: 'Challenges',
+                    table: {
+                        columns: ['Point', 'Details'],
+                        rows: [
+                            ['Public dealing', 'Continuous interaction with passengers in varied situations.'],
+                            ['Shift/roster', 'May apply depending on posting and operational requirement.'],
+                            ['Busy station environment', 'Workload may be higher in large/high-traffic stations.'],
+                            ['Cash/records responsibility', 'Accuracy and accountability are important.'],
+                            ['Transfer/posting factors', 'Administrative requirements can influence location.'],
+                        ],
+                    },
+                },
+            ],
+        },
+        {
+            id: 'who-should-apply',
+            title: 'Who Should Consider This Post? (General Guidance)',
+            subsections: [
+                {
+                    title: 'Good fit for candidates who',
+                    bullets: [
+                        'Have 12th qualification.',
+                        'Prefer a government job framework.',
+                        'Are comfortable with public interaction.',
+                        'Want railway employment.',
+                        'Are comfortable with commercial/ticketing work.',
+                        'Can prepare for General Awareness, Maths and Reasoning.',
+                    ],
+                },
+                {
+                    title: 'May not be ideal for candidates who',
+                    bullets: [
+                        'Dislike public-facing work.',
+                        'Do not want station/commercial responsibilities.',
+                        'Prefer a purely desk-based technical role.',
+                    ],
+                },
+            ],
+        },
+        {
+            id: 'documents',
+            title: 'Documents Usually Required',
+            table: {
+                columns: ['Document', 'Why it may be required'],
+                rows: [
+                    ['10th Certificate', 'Date of birth proof.'],
+                    ['12th Certificate / Marksheet', 'Educational qualification proof.'],
+                    ['Category Certificate', 'If applicable.'],
+                    ['PwBD Certificate', 'If applicable.'],
+                    ['Ex-Servicemen documents', 'If applicable.'],
+                    ['Photo', 'Application requirements.'],
+                    ['Signature', 'Application requirements.'],
+                    ['Identity document', 'As required by current notification.'],
+                ],
+            },
+            note: 'Actual document requirements are always governed by the current recruitment notification.',
+        },
+        {
+            id: 'application-process',
+            title: 'Application Process',
+            table: {
+                columns: ['Step', 'Action'],
+                rows: [
+                    ['1', 'Read current CEN.'],
+                    ['2', 'Check eligibility against notified criteria.'],
+                    ['3', 'Select appropriate RRB/options according to notification.'],
+                    ['4', 'Register.'],
+                    ['5', 'Enter personal and educational details.'],
+                    ['6', 'Upload documents/photo/signature as required.'],
+                    ['7', 'Pay applicable fee.'],
+                    ['8', 'Submit application.'],
+                    ['9', 'Save application/registration record.'],
+                    ['10', 'Track RRB notices regularly.'],
+                ],
+            },
+        },
+        {
+            id: 'official-links',
+            title: 'Official Links',
+            table: {
+                columns: ['Link', 'Purpose', 'URL'],
+                rows: [
+                    ['RRB Official Recruitment Notices', 'Latest recruitment notifications', { text: 'https://www.rrbbbs.gov.in/notifications.php', href: 'https://www.rrbbbs.gov.in/notifications.php' }],
+                    ['CEN 07/2025 NTPC UG (notice page)', 'Current undergraduate recruitment notice page', { text: 'https://rrbmumbai.gov.in/CEN07_2025.php', href: 'https://rrbmumbai.gov.in/CEN07_2025.php' }],
+                    ['CEN 07/2025 Detailed Notification (English PDF)', 'Official notification PDF', { text: 'https://rrbmumbai.gov.in/newpdf/CEN%2007-2025-NTPC%20(Under%20Graduate)%20English.pdf', href: 'https://rrbmumbai.gov.in/newpdf/CEN%2007-2025-NTPC%20(Under%20Graduate)%20English.pdf' }],
+                    ['Application', 'Use only when active', { text: 'https://www.rrbapply.gov.in/', href: 'https://www.rrbapply.gov.in/' }],
+                    ['Admit Card / City Intimation', 'When available for active cycle', { text: 'https://rrb.digialm.com/EForms/configuredHtml/33128/100181/login.html', href: 'https://rrb.digialm.com/EForms/configuredHtml/33128/100181/login.html' }],
+                    ['Result / updates', 'Cycle-specific updates', { text: 'https://www.rrbbbs.gov.in/cen.php?prmt=TkRFPQ==', href: 'https://www.rrbbbs.gov.in/cen.php?prmt=TkRFPQ==' }],
+                ],
+            },
+            note: 'Do not rely on unofficial portals. If an application window is closed, wait for the next official notice.',
+            source: 'Official RRB websites listed above.',
+        },
+    ],
+    faqs: [
+        ['What is Commercial Cum Ticket Clerk?', 'It is an RRB NTPC undergraduate passenger-facing commercial and ticketing-related post in Indian Railways when notified in the applicable CEN.'],
+        ['What qualification is required?', '12th (+2) or equivalent from a recognized board, with the marks condition and exceptions as specified in the current CEN.'],
+        ['Is graduation required?', 'No, this is an undergraduate NTPC post category route for 12th-level eligibility.'],
+        ['Is 12th enough for eligibility?', '12th is the base qualification, but the CEN marks condition and exemption categories must also be checked.'],
+        ['Is 50% mandatory in 12th?', 'The CEN states a 50% aggregate condition with specified exceptions such as SC/ST, PwBD, Ex-servicemen, and candidates with qualification above 12th.'],
+        ['Is there a typing test for Commercial Cum Ticket Clerk?', 'No. Typing test is not applicable to this post in NTPC UG flow.'],
+        ['Which posts have typing test in NTPC UG?', 'Typing test applies to Accounts Clerk cum Typist and Junior Clerk cum Typist as per the notification.'],
+        ['What is the medical standard for this post?', 'B-2 as specified for the post in the current NTPC UG recruitment context.'],
+        ['What does B-2 medical standard mean?', 'It refers to prescribed Railway medical fitness criteria including vision standards; final fitness is determined by Railway medical examination.'],
+        ['Is there a physical test like police exams?', 'No separate police/defence-style physical efficiency test is prescribed for this post in NTPC UG process.'],
+        ['How many CBT stages are there?', 'Two CBT stages: CBT-1 and CBT-2, followed by Document Verification and Railway Medical Examination for this post.'],
+        ['How many questions are in CBT-1?', { text: '100 questions for 100 marks in 90 minutes.', tone: 'accent' }],
+        ['How many questions are in CBT-2?', { text: '120 questions for 120 marks in 90 minutes.', tone: 'accent' }],
+        ['Is there negative marking?', { text: 'Yes. 1/3 mark is deducted for each wrong answer in CBT.', tone: 'accent' }],
+        ['What is the starting basic pay?', { text: 'Rs 21,700 (Pay Level 3).', tone: 'accent' }],
+        ['What is the syllabus?', 'Maths, General Intelligence and Reasoning, and General Awareness as detailed in the current CEN for CBT-1 and CBT-2.'],
+        ['Which books should I use?', 'Use standard quantitative aptitude, reasoning, static GK, NCERT-level science, current affairs resources, and previous year NTPC papers. These are preparation suggestions, not official endorsements.'],
+        ['Is there an interview stage?', 'No interview stage is specified in this NTPC UG process for this post.'],
+        ['Can posting be anywhere in India?', 'Posting depends on recruitment board/zone allocation and administrative requirements under applicable rules.'],
+        ['Is the post permanent?', 'Service conditions follow the applicable Railway appointment/service rules for the notified recruitment.'],
+        ['Where should I check latest updates?', 'Always check official RRB notice pages and CEN documents for current-cycle updates.'],
+    ],
+};
+
+const accountsClerkCumTypistGuide = {
+    lastVerifiedAt: '2026-08-25',
+    defaultSource: 'Official RRB notices and CEN 07/2025 (NTPC Undergraduate) documents.',
+    intro: 'Accounts Clerk Cum Typist is an RRB NTPC undergraduate post focused on railway clerical and accounts-support work. Exact duties, office posting, service conditions and recruitment-stage rules are governed by the applicable railway rules and current recruitment notification.',
+    heroImage: {
+        src: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=80',
+        alt: 'Railway accounts office workspace',
+        caption: 'Representative office workspace image used for educational context only. It does not imply endorsement by Indian Railways or RRB.',
+    },
+    quickFacts: {
+        title: 'Quick Facts: Accounts Clerk Cum Typist',
+        rows: [
+            ['Post', 'Accounts Clerk Cum Typist'],
+            ['Recruitment', 'RRB NTPC - Undergraduate'],
+            ['Recruiting Authority', 'Railway Recruitment Boards (RRBs)'],
+            ['Ministry', 'Ministry of Railways, Government of India'],
+            ['Pay Level', { text: 'Level 2', tone: 'accent' }],
+            ['Initial Basic Pay', { text: '₹19,900', tone: 'accent' }],
+            ['Medical Standard', { text: 'C-2', tone: 'accent' }],
+            ['Minimum Qualification', { text: '12th (+2) or equivalent with applicable 50% condition/exceptions', tone: 'accent' }],
+            ['Typing Test', { text: 'Computer Based Typing Skill Test (CBTST)', tone: 'accent' }],
+            ['Typing Speed', { text: '30 WPM English OR 25 WPM Hindi', tone: 'accent' }],
+            ['Typing Test Nature', { text: 'Qualifying', tone: 'accent' }],
+            ['Selection', { text: 'CBT 1 -> CBT 2 -> CBTST -> Document Verification -> Medical Examination', tone: 'accent' }],
+        ],
+    },
+    importantNotice: {
+        tone: 'warning',
+        title: 'Recruitment-specific details may change',
+        text: 'Vacancy, application dates, age cut-off, fee, exam schedule, recruitment status and notification-specific rules must always be verified from the latest official RRB notification.',
+    },
+    sections: [
+        {
+            id: 'what-is-accounts-clerk',
+            title: 'What Is Accounts Clerk Cum Typist?',
+            paragraphs: [
+                'Accounts Clerk Cum Typist is a clerical/accounts-support railway post under NTPC Undergraduate when notified. The role generally fits in office-based administrative and records workflows rather than passenger counter operations.',
+                'Railway administration requires continuous accounting support, voucher/ledger handling, records maintenance and office correspondence. This post supports those functions using computer-based work and organized documentation.',
+                'Typing proficiency is part of the selection process because day-to-day clerical and records-related work relies on accurate and timely computer input. This is why a separate qualifying Computer Based Typing Skill Test is prescribed for this post.',
+                'Compared with passenger-facing ticketing roles, this post is usually more office/records oriented, though exact assignment depends on posting and unit-level work distribution.',
+            ],
+            subsections: [
+                {
+                    title: 'In Simple Words',
+                    bullets: [
+                        'This is a railway office job for clerical and basic accounts-related support.',
+                        'You work mostly on computer records, files, vouchers and typed documents.',
+                        'You must clear a typing test, but typing marks are qualifying and not counted in merit marks.',
+                    ],
+                },
+            ],
+        },
+        {
+            id: 'job-profile',
+            title: 'Job Profile',
+            table: {
+                columns: ['Responsibility', 'What it generally involves'],
+                rows: [
+                    ['Maintaining accounting records', 'Maintaining office/account entries and related records as assigned.'],
+                    ['Preparing/handling vouchers', 'Processing vouchers and related accounting paperwork under office procedures.'],
+                    ['Ledger-related work', 'Supporting ledger entry, update and verification tasks where assigned.'],
+                    ['Data entry', 'Entering records and transaction details on computer systems.'],
+                    ['Office correspondence', 'Typing and maintaining letters, notes and internal communication records.'],
+                    ['Record maintenance', 'Organizing registers/files and maintaining document traceability.'],
+                    ['Clerical/accounts support', 'Supporting routine procedural office and accounts-related tasks.'],
+                    ['Computer-based office work', 'Using computer tools for entries, documentation and records handling.'],
+                    ['Document organization', 'Checking and arranging documents for internal use and verification workflows.'],
+                    ['Procedure compliance', 'Following applicable departmental accounting and clerical procedures.'],
+                    ['Other assigned duties', 'Additional duties based on office/unit requirement and service rules.'],
+                ],
+            },
+            note: 'Exact duties may vary according to the Railway unit, office, posting and applicable service rules.',
+        },
+        {
+            id: 'work-environment',
+            title: 'Work Environment',
+            image: {
+                src: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1400&q=80',
+                alt: 'Railway clerical office work setup',
+                caption: 'Representative office image for clerical workflow context only.',
+            },
+            table: {
+                columns: ['Factor', 'Explanation'],
+                rows: [
+                    ['Work type', 'Primarily clerical/computer/account-related office work.'],
+                    ['Public interaction', 'Generally lower than passenger-facing commercial posts, but depends on posting.'],
+                    ['Computer usage', 'Important for routine work.'],
+                    ['Typing', 'Important for qualifying CBTST and office documentation.'],
+                    ['Records', 'Important part of clerical/account work.'],
+                    ['Workplace', 'Railway offices/units as assigned.'],
+                    ['Shift requirement', 'May vary according to posting/office requirements; no universal schedule should be assumed.'],
+                ],
+            },
+        },
+        {
+            id: 'eligibility',
+            title: 'Eligibility',
+            table: {
+                columns: ['Criteria', 'Requirement'],
+                rows: [
+                    ['Educational Qualification', { text: '12th (+2) or equivalent', tone: 'accent' }],
+                    ['Minimum Marks', '50% aggregate, subject to exceptions specified in the applicable CEN.'],
+                    ['SC/ST', '50% marks condition is not insisted upon as stated in CEN provisions.'],
+                    ['PwBD', 'As per applicable CEN provisions.'],
+                    ['Ex-Servicemen', 'As per applicable CEN provisions.'],
+                    ['Higher qualification', 'Candidates with qualifications above 12th are covered by stated exception to the 50% condition.'],
+                    ['Typing proficiency', { text: 'English or Hindi typing on computer is essential', tone: 'accent' }],
+                ],
+            },
+        },
+        {
+            id: 'age-limit',
+            title: 'Age Limit Framework',
+            table: {
+                columns: ['Age requirement', 'Details'],
+                rows: [
+                    ['Current CEN age framework', 'Use the latest applicable notification.'],
+                    ['Age cut-off date', 'Use the current CEN and any corrigendum.'],
+                    ['Upper-age relaxation', 'As per Government/RRB rules and current notification.'],
+                    ['SC/ST', 'As applicable in current CEN.'],
+                    ['OBC-NCL', 'As applicable in current CEN.'],
+                    ['PwBD', 'As applicable in current CEN.'],
+                    ['Ex-Servicemen', 'As applicable in current CEN.'],
+                ],
+            },
+            note: 'Age eligibility must always be checked against the date and rules specified in the current CEN.',
+        },
+        {
+            id: 'cbtst',
+            title: 'Computer Based Typing Skill Test (CBTST)',
+            emphasis: 'high',
+            paragraphs: [
+                'Accounts Clerk Cum Typist requires a Computer Based Typing Skill Test (CBTST).',
+                'CBTST is qualifying in nature. Typing test marks are not added to merit score.',
+                'Candidates are shortlisted for CBTST from 2nd Stage CBT performance as per notification provisions.',
+            ],
+            table: {
+                columns: ['Test', 'Requirement'],
+                rows: [
+                    ['English', { text: '30 WPM', tone: 'accent' }],
+                    ['Hindi', { text: '25 WPM', tone: 'accent' }],
+                    ['Nature', { text: 'Qualifying', tone: 'accent' }],
+                    ['Device', 'Personal Computer'],
+                    ['Editing tools', 'Not allowed'],
+                    ['Spell check', 'Not allowed'],
+                    ['Hindi typing fonts', 'Kruti Dev and Mangal are made available as per notification.'],
+                ],
+            },
+            note: 'Use the current CEN/related notices for any update to qualifying criteria or conduct instructions.',
+        },
+        {
+            id: 'who-is-called-for-cbtst',
+            title: 'Who Is Called for CBTST?',
+            image: {
+                src: '/images/rrb-ntpc-accounts-clerk-flow.svg',
+                alt: 'RRB NTPC Accounts Clerk Cum Typist selection process',
+                caption: 'Original infographic: CBT-1 -> CBT-2 -> CBTST -> DV -> Medical.',
+            },
+            paragraphs: [
+                'As per current CEN provision, candidates up to eight times the community-wise vacancies are called/shortlisted for CBTST, subject to conditions in the notification.',
+                'Not every applicant reaches CBTST. Shortlisting depends on CBT performance and post/category-wise criteria.',
+            ],
+            ordered: [
+                'CBT-1',
+                'CBT-2',
+                'CBT-2 normalized performance',
+                'Shortlisting for CBTST (as per notification conditions)',
+                'Qualify CBTST',
+                'Document Verification and Medical Examination',
+            ],
+        },
+        {
+            id: 'typing-preparation',
+            title: 'Typing Test Preparation',
+            subsections: [
+                {
+                    title: 'How to prepare for CBTST',
+                    ordered: [
+                        'Start daily typing practice.',
+                        'Practice English and/or Hindi according to your intended test language.',
+                        'Practice without autocorrect.',
+                        'Practice without spell-check.',
+                        'Use a normal physical keyboard.',
+                        'Practice accuracy before speed.',
+                        'Practice timed tests.',
+                        'Practice under exam-like restrictions.',
+                        'Track WPM and accuracy over time.',
+                        'Practice long passages continuously.',
+                    ],
+                },
+            ],
+            table: {
+                columns: ['Practice Area', 'Target'],
+                rows: [
+                    ['English typing', '30+ WPM'],
+                    ['Hindi typing', '25+ WPM'],
+                    ['Accuracy', 'Aim comfortably above minimum speed with controlled errors.'],
+                    ['Timed practice', 'Regular'],
+                    ['Keyboard familiarity', 'Daily'],
+                ],
+            },
+            note: 'No fixed official accuracy percentage threshold is stated here unless explicitly specified by current notification.',
+        },
+        {
+            id: 'typing-plan',
+            title: '30-Day Typing Preparation Plan',
+            note: 'Suggested preparation plan - not an official RRB schedule.',
+            table: {
+                columns: ['Days', 'Focus'],
+                rows: [
+                    ['Days 1-7', 'Keyboard familiarity and accuracy foundation.'],
+                    ['Days 8-15', 'Timed typing and consistency development.'],
+                    ['Days 16-23', 'Long passages and speed improvement.'],
+                    ['Days 24-30', 'Full mock typing tests under restrictions.'],
+                ],
+            },
+        },
+        {
+            id: 'medical-c2',
+            title: 'Railway Medical Standard: C-2',
+            emphasis: 'high',
+            paragraphs: [
+                'Accounts Clerk Cum Typist is assigned C-2 medical standard in the current NTPC-UG post-wise parameters.',
+            ],
+            table: {
+                columns: ['Parameter', 'Details'],
+                rows: [
+                    ['Medical Standard', { text: 'C-2', tone: 'accent' }],
+                    ['Applicable Medical Examination', 'Railway medical examination'],
+                    ['Vision/medical requirements', 'As per applicable Railway medical standards'],
+                    ['Final fitness decision', 'Railway medical authority'],
+                ],
+            },
+            note: 'Medical standards can differ between Railway posts. Do not assume that medical requirements of Commercial Cum Ticket Clerk, Trains Clerk, ALP or Group D are the same as Accounts Clerk Cum Typist.',
+        },
+        {
+            id: 'physical-test',
+            title: 'Is There a Physical Efficiency Test?',
+            warning: 'CBTST ≠ Physical Test',
+            paragraphs: [
+                'Do not confuse medical examination with a police/defence-style physical efficiency test.',
+                'For Accounts Clerk Cum Typist in NTPC process, stages are CBTs, CBTST (for this post), DV and medical. No separate running/height/chest PET is listed for this post in this process flow.',
+            ],
+        },
+        {
+            id: 'selection-process',
+            title: 'Selection Process',
+            table: {
+                columns: ['Stage', 'What happens'],
+                rows: [
+                    ['1', 'CBT-1'],
+                    ['2', 'CBT-2'],
+                    ['3', { text: 'Computer Based Typing Skill Test (CBTST)', tone: 'accent' }],
+                    ['4', 'Document Verification'],
+                    ['5', 'Railway Medical Examination'],
+                    ['6', 'Final empanelment/appointment as applicable'],
+                ],
+            },
+            note: 'CBTST is qualifying. Merit is based on applicable CBT performance after satisfying qualifying skill-test requirement as per current CEN methodology.',
+        },
+        {
+            id: 'cbt1-pattern',
+            title: 'CBT-1 Exam Pattern',
+            table: {
+                columns: ['Subject', 'Questions', 'Marks'],
+                rows: [
+                    ['General Awareness', '40', '40'],
+                    ['Mathematics', '30', '30'],
+                    ['General Intelligence and Reasoning', '30', '30'],
+                    ['Total', { text: '100 Questions', tone: 'accent' }, { text: '100 Marks', tone: 'accent' }],
+                    ['Duration', { text: '90 Minutes', tone: 'accent' }, '-'],
+                    ['PwBD with eligible scribe', '120 Minutes', '-'],
+                    ['Negative marking', { text: '1/3 mark per wrong answer', tone: 'accent' }, '-'],
+                    ['Question type', 'Objective / MCQ', '-'],
+                ],
+            },
+        },
+        {
+            id: 'cbt2-pattern',
+            title: 'CBT-2 Exam Pattern',
+            table: {
+                columns: ['Subject', 'Questions', 'Marks'],
+                rows: [
+                    ['General Awareness', '50', '50'],
+                    ['Mathematics', '35', '35'],
+                    ['General Intelligence and Reasoning', '35', '35'],
+                    ['Total', { text: '120 Questions', tone: 'accent' }, { text: '120 Marks', tone: 'accent' }],
+                    ['Duration', { text: '90 Minutes', tone: 'accent' }, '-'],
+                    ['PwBD with eligible scribe', '120 Minutes', '-'],
+                    ['Negative marking', { text: '1/3 mark per wrong answer', tone: 'accent' }, '-'],
+                ],
+            },
+        },
+        {
+            id: 'detailed-syllabus',
+            title: 'Detailed Syllabus',
+            subsections: [
+                {
+                    title: 'Mathematics',
+                    bullets: [
+                        'Number System', 'Decimals', 'Fractions', 'LCM', 'HCF', 'Ratio and Proportion', 'Percentage', 'Mensuration',
+                        'Time and Work', 'Time and Distance', 'Simple Interest', 'Compound Interest', 'Profit and Loss', 'Elementary Algebra',
+                        'Geometry', 'Trigonometry', 'Elementary Statistics', 'Other topics specifically listed in current CEN.',
+                    ],
+                },
+                {
+                    title: 'General Intelligence and Reasoning',
+                    bullets: [
+                        'Analogies', 'Number Series', 'Alphabetical Series', 'Coding-Decoding', 'Mathematical Operations', 'Similarities and Differences',
+                        'Relationships', 'Analytical Reasoning', 'Syllogism', 'Jumbling', 'Venn Diagrams', 'Puzzles', 'Data Sufficiency',
+                        'Statement-Conclusion', 'Courses of Action', 'Decision Making', 'Maps', 'Graph Interpretation',
+                    ],
+                },
+                {
+                    title: 'General Awareness',
+                    bullets: [
+                        'Current Affairs', 'National and International Events', 'Games and Sports', 'Indian Art and Culture', 'Indian Literature',
+                        'Monuments and Places', 'General Science', 'Life Science up to 10th CBSE level', 'Indian History', 'Freedom Struggle',
+                        'Geography', 'Indian Polity and Constitution', 'Indian Economy', 'Environment', 'Space', 'Nuclear Programme',
+                        'United Nations', 'Important International Organizations', 'Computer basics', 'Computer applications',
+                        'Common abbreviations', 'Transport Systems in India', 'Government schemes/programmes', 'Public Sector organizations',
+                        'Flora and Fauna', 'Famous personalities', 'Scientific and technological developments',
+                    ],
+                },
+            ],
+        },
+        {
+            id: 'subject-preparation',
+            title: 'What Should I Study First?',
+            paragraphs: [
+                'Mathematics: start with arithmetic fundamentals, then move to advanced topics and timed practice.',
+                'Reasoning: build topic familiarity first, then shift to mixed question practice.',
+                'General Awareness: combine static GK, science, polity, history, geography and current affairs.',
+                'Typing: practice every day because CBTST is a separate qualifying requirement.',
+            ],
+            table: {
+                columns: ['Subject', 'Priority', 'Suggested Approach'],
+                rows: [
+                    ['Maths', 'High', 'Concept -> practice -> timed sets'],
+                    ['Reasoning', 'High', 'Topic-wise -> mixed practice'],
+                    ['General Awareness', 'Very High', 'Static + current affairs'],
+                    ['Typing', 'Very High', 'Daily timed practice'],
+                ],
+            },
+        },
+        {
+            id: 'books-resources',
+            title: 'Recommended Books and Resources',
+            note: 'These are independent preparation recommendations, not officially recommended by RRB.',
+            table: {
+                columns: ['Subject', 'Recommended Resource Type', 'Purpose'],
+                rows: [
+                    ['Mathematics', 'A standard competitive-exam quantitative aptitude book', 'Concepts + practice'],
+                    ['Reasoning', 'A standard verbal/non-verbal reasoning book', 'Topic-wise practice'],
+                    ['General Knowledge', 'A standard one-volume GK reference', 'Static GK'],
+                    ['General Science', 'NCERT/school-level science resources', 'Physics/Chemistry/Biology foundation'],
+                    ['Current Affairs', 'Reliable monthly current-affairs resource', 'Recent events'],
+                    ['Typing', 'Computer typing practice software/site', 'WPM + accuracy'],
+                    ['Previous Year Papers', 'RRB NTPC previous-year paper compilation', 'Pattern + time management'],
+                ],
+            },
+        },
+        {
+            id: 'previous-papers',
+            title: 'Previous Year Papers and Mock Tests',
+            bullets: [
+                'CBT-1 papers',
+                'CBT-2 papers',
+                'Topic-wise practice',
+                'Shift-wise papers',
+                'Full-length mocks',
+                'Typing mock tests',
+            ],
+            paragraphs: [
+                'Recommended strategy: first solve topic-wise sets, then previous-year full papers, then timed mocks.',
+            ],
+        },
+        {
+            id: 'qualifying-marks',
+            title: 'Minimum Qualifying Marks',
+            table: {
+                columns: ['Category', 'Minimum qualifying percentage'],
+                rows: [
+                    ['UR', '40%'],
+                    ['EWS', '40%'],
+                    ['OBC-NCL', '30%'],
+                    ['SC', '30%'],
+                    ['ST', '25%'],
+                ],
+            },
+            paragraphs: [
+                'These are minimum qualifying percentages, not final cut-off marks.',
+                'Actual cut-off varies by RRB, category, vacancy, candidate performance, normalization and recruitment cycle.',
+            ],
+        },
+        {
+            id: 'salary',
+            title: 'Salary',
+            table: {
+                columns: ['Salary Component', 'Details'],
+                rows: [
+                    ['Pay Level', { text: 'Level 2', tone: 'accent' }],
+                    ['Initial Basic Pay', { text: '₹19,900', tone: 'accent' }],
+                    ['Allowances', 'As admissible under applicable rules'],
+                    ['Deductions', 'Applicable statutory/service deductions'],
+                    ['In-hand salary', { text: 'No fixed universal figure should be assumed', tone: 'warning' }],
+                ],
+            },
+            paragraphs: [
+                'Basic pay is not the same as gross salary, and gross salary is not the same as in-hand salary.',
+                'Exact salary depends on posting, admissible allowances and deductions.',
+            ],
+        },
+        {
+            id: 'career-promotion',
+            title: 'Career and Promotion',
+            paragraphs: [
+                'Promotion and career progression are governed by applicable Railway service rules and departmental procedures.',
+                'Departmental structure, seniority position, cadre controls and selection procedures influence progression.',
+                'No guaranteed promotion timeline should be assumed.',
+            ],
+        },
+        {
+            id: 'skills',
+            title: 'Useful Skills for Accounts Clerk Cum Typist',
+            note: 'Useful skills, not mandatory eligibility unless official rules specify them.',
+            table: {
+                columns: ['Skill', 'Why it matters'],
+                rows: [
+                    ['Typing', 'CBTST requirement'],
+                    ['Computer basics', 'Daily office work'],
+                    ['Numerical accuracy', 'Accounts-related records'],
+                    ['Attention to detail', 'Avoiding errors'],
+                    ['Record keeping', 'Office documentation'],
+                    ['Communication', 'Correspondence'],
+                    ['Time management', 'Meeting office deadlines'],
+                    ['Basic spreadsheet skills', 'Useful for data/record work'],
+                ],
+            },
+        },
+        {
+            id: 'pros-challenges',
+            title: 'Advantages and Challenges',
+            subsections: [
+                {
+                    title: 'Advantages',
+                    table: {
+                        columns: ['Point', 'Explanation'],
+                        rows: [
+                            ['Railway employment structure', 'Structured service framework.'],
+                            ['Level 2 government pay', 'Defined pay structure under notified rules.'],
+                            ['Clerical/accounts-oriented work', 'Suitable for office-document workflow preference.'],
+                            ['Computer-based work', 'Relevant for digital-office skill growth.'],
+                            ['Career progression opportunities', 'Progression possible under service procedures.'],
+                            ['Service benefits', 'As applicable under current rules.'],
+                        ],
+                    },
+                },
+                {
+                    title: 'Challenges',
+                    table: {
+                        columns: ['Point', 'Explanation'],
+                        rows: [
+                            ['Typing test', 'Separate qualifying stage must be cleared.'],
+                            ['Accuracy requirements', 'Documentation errors can affect office work quality.'],
+                            ['Repetitive clerical work', 'Routine tasks may be repetitive.'],
+                            ['Record/document responsibility', 'Consistency and correctness are important.'],
+                            ['Computer-based workload', 'Sustained screen/document processing work.'],
+                            ['Posting/transfer considerations', 'Depends on administrative requirements and service rules.'],
+                        ],
+                    },
+                },
+            ],
+        },
+        {
+            id: 'comparison',
+            title: 'Accounts Clerk Cum Typist vs Other NTPC UG Posts',
+            note: 'Comparison based on applicable CEN post-wise parameters for the recruitment cycle.',
+            table: {
+                columns: ['Post', 'Pay Level', 'Medical', 'Typing Test'],
+                rows: [
+                    ['Accounts Clerk cum Typist', { text: 'Level 2', tone: 'accent' }, { text: 'C-2', tone: 'accent' }, { text: 'Yes', tone: 'accent' }],
+                    ['Junior Clerk cum Typist', 'Level 2', 'C-2', 'Yes'],
+                    ['Commercial Cum Ticket Clerk', 'Level 3', 'B-2', 'No'],
+                    ['Trains Clerk', 'Level 2', 'A-3', 'No'],
+                ],
+            },
+        },
+        {
+            id: 'documents',
+            title: 'Documents Required (Indicative)',
+            table: {
+                columns: ['Document', 'Purpose'],
+                rows: [
+                    ['Educational Certificate', 'Qualification proof'],
+                    ['10th Certificate', 'DOB/education proof as applicable'],
+                    ['12th Marksheet/Certificate', 'Eligibility proof'],
+                    ['Category Certificate', 'If applicable'],
+                    ['PwBD Certificate', 'If applicable'],
+                    ['Ex-servicemen documents', 'If applicable'],
+                    ['Photo', 'Application'],
+                    ['Signature', 'Application'],
+                    ['Identity document', 'As required'],
+                ],
+            },
+            note: 'Exact document requirements must be checked in the current notification.',
+        },
+        {
+            id: 'application-process',
+            title: 'Application Process',
+            table: {
+                columns: ['Step', 'Action'],
+                rows: [
+                    ['1', 'Read the current NTPC CEN.'],
+                    ['2', 'Confirm eligibility.'],
+                    ['3', 'Select the appropriate RRB/options according to notification.'],
+                    ['4', 'Register.'],
+                    ['5', 'Enter personal and educational information.'],
+                    ['6', 'Upload documents/photo/signature.'],
+                    ['7', 'Pay applicable fee.'],
+                    ['8', 'Submit application.'],
+                    ['9', 'Save registration/application details.'],
+                    ['10', 'Monitor official RRB notices.'],
+                ],
+            },
+        },
+        {
+            id: 'latest-recruitment',
+            title: 'Latest Recruitment',
+            warning: 'Recruitment-specific information - verify the latest official notice.',
+            table: {
+                columns: ['Field', 'Current cycle (CEN 07/2025 NTPC UG)'],
+                rows: [
+                    ['Recruitment', 'CEN 07/2025 NTPC Undergraduate'],
+                    ['Post', 'Accounts Clerk Cum Typist'],
+                    ['Pay', { text: 'Level 2 | ₹19,900', tone: 'accent' }],
+                    ['Medical', { text: 'C-2', tone: 'accent' }],
+                    ['Vacancy', { text: '394 (recruitment-specific)', tone: 'warning' }],
+                    ['Application window', { text: 'Opened 28-10-2025; initial close 27-11-2025; check corrigendum for revised timelines', tone: 'warning' }],
+                    ['Exam updates', { text: 'Application status, city intimation, call letter and revised CBT-I schedule notices published on official RRB pages', tone: 'warning' }],
+                    ['Typing test update', { text: 'CBTST requirements are post-specific and should be checked in current CEN notices', tone: 'warning' }],
+                    ['Admit card', 'Official RRB/Digialm link when active'],
+                    ['Result', 'Official RRB notice/result page when published'],
+                ],
+            },
+            note: 'Do not treat vacancy or timeline values as evergreen post attributes.',
+            source: 'RRB Mumbai/Bhubaneswar official CEN 07/2025 notices and linked documents.',
+        },
+        {
+            id: 'important-links',
+            title: 'Important Links',
+            table: {
+                columns: ['Link', 'Purpose', 'URL'],
+                rows: [
+                    ['Official RRB Recruitment Notices', 'Latest notifications', { text: 'https://www.rrbbbs.gov.in/notifications.php', href: 'https://www.rrbbbs.gov.in/notifications.php' }],
+                    ['Current NTPC UG Notification', 'CEN 07/2025', { text: 'https://rrbmumbai.gov.in/newpdf/CEN%2007-2025-NTPC%20(Under%20Graduate)%20English.pdf', href: 'https://rrbmumbai.gov.in/newpdf/CEN%2007-2025-NTPC%20(Under%20Graduate)%20English.pdf' }],
+                    ['Application Portal', 'Only when currently active', { text: 'https://www.rrbapply.gov.in/', href: 'https://www.rrbapply.gov.in/' }],
+                    ['Admit Card', 'When released', { text: 'https://rrb.digialm.com/EForms/configuredHtml/33128/100181/login.html', href: 'https://rrb.digialm.com/EForms/configuredHtml/33128/100181/login.html' }],
+                    ['Result', 'When released', { text: 'https://www.rrbbbs.gov.in/cen.php?prmt=TkRFPQ==', href: 'https://www.rrbbbs.gov.in/cen.php?prmt=TkRFPQ==' }],
+                ],
+            },
+            note: 'Do not treat closed or inactive links as currently active application windows.',
+        },
+        {
+            id: 'image-licensing',
+            title: 'Image Sources and Licensing',
+            table: {
+                columns: ['Image', 'Source', 'Source URL', 'Author', 'License', 'Attribution requirement', 'Attribution text', 'Download date'],
+                rows: [
+                    ['Hero office image', 'Unsplash', { text: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40', href: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40' }, 'Unsplash contributor', 'Unsplash License', 'Attribution not mandatory, but source retained', 'Photo from Unsplash for illustrative use', '2026-08-25'],
+                    ['Office/clerical image', 'Unsplash', { text: 'https://images.unsplash.com/photo-1521791136064-7986c2920216', href: 'https://images.unsplash.com/photo-1521791136064-7986c2920216' }, 'Unsplash contributor', 'Unsplash License', 'Attribution not mandatory, but source retained', 'Photo from Unsplash for illustrative use', '2026-08-25'],
+                    ['Selection-flow infographic', 'Original (this project)', '/images/rrb-ntpc-accounts-clerk-flow.svg', 'RojgarPath content team', 'Original artwork', 'No external attribution required', 'Generated for educational explanation', '2026-08-25'],
+                ],
+            },
+            note: 'Images are illustrative and do not imply endorsement by Indian Railways or RRB.',
+        },
+    ],
+    faqs: [
+        ['What is Accounts Clerk Cum Typist?', 'It is an RRB NTPC undergraduate clerical/accounts-support post with a qualifying typing skill test.'],
+        ['Is 12th qualification enough?', '12th (+2) is the base qualification, subject to marks condition and exemptions specified in current CEN.'],
+        ['Is 50% required?', 'Current CEN states 50% aggregate with specified exemption categories.'],
+        ['Who gets exemption from the 50% requirement?', 'As stated in CEN, including SC/ST, PwBD, Ex-servicemen and candidates with qualification higher than 12th (as applicable).'],
+        ['Is graduation required?', 'No, this is an undergraduate stream post.'],
+        ['Is typing test mandatory?', 'Yes, CBTST is applicable to this post.'],
+        ['What is the typing speed?', { text: '30 WPM in English or 25 WPM in Hindi.', tone: 'accent' }],
+        ['Is Hindi typing allowed?', 'Yes, as per notification provisions.'],
+        ['Is English typing allowed?', 'Yes, as per notification provisions.'],
+        ['Is the typing test qualifying?', { text: 'Yes, CBTST is qualifying in nature.', tone: 'accent' }],
+        ['Are typing marks added to merit?', 'No, typing test marks are qualifying and not added to merit marks.'],
+        ['What happens if I fail CBTST?', 'You do not qualify for further consideration for this post in that cycle.'],
+        ['What is the medical standard?', { text: 'C-2 for Accounts Clerk Cum Typist in current CEN cycle.', tone: 'accent' }],
+        ['Is there a physical efficiency test?', 'No separate police/defence-style PET is listed for this post in this NTPC process flow.'],
+        ['How many CBT stages are there?', 'Two CBT stages: CBT-1 and CBT-2 before CBTST.'],
+        ['How many questions are in CBT-1?', { text: '100 questions (100 marks).', tone: 'accent' }],
+        ['How many questions are in CBT-2?', { text: '120 questions (120 marks).', tone: 'accent' }],
+        ['Is negative marking applicable?', { text: 'Yes, 1/3 mark per wrong answer in CBTs.', tone: 'accent' }],
+        ['What is the salary?', { text: 'Pay Level 2 with initial basic pay ₹19,900.', tone: 'accent' }],
+        ['What is the job profile?', 'Primarily office-based clerical and accounts support, including records, documents and computer data entry tasks.'],
+        ['What books should I study?', 'Use standard quantitative aptitude, reasoning, GK, school-level science, current affairs and typing practice resources.'],
+        ['Where can I find previous-year papers?', 'Use authentic NTPC previous-year compilations and mock-test platforms for practice.'],
+        ['Where can I check latest notification?', 'Official RRB notice pages and current CEN links only.'],
+    ],
+};
+
 const railwayGroups = [
     { name: 'NTPC - UNDER GRADUATE', posts: [
-        railwayPost('Commercial Cum Ticket Clerk', 'ntpc', { overview: 'Commercial Cum Ticket Clerks support passenger ticketing and commercial work at railway stations. The post is part of the NTPC undergraduate stream when included in the applicable CEN.', qualification: 'A recognised 12th-standard qualification is typical for the undergraduate NTPC stream; the current CEN controls marks, age, medical standard and post availability.', profile: 'Ticket issue and checking support, passenger guidance, cash and commercial records under station procedures.', pay: 'The applicable NTPC CEN states the pay level and allowances for Commercial Cum Ticket Clerk.' }),
-        railwayPost('Accounts Clerk Cum Typist', 'ntpc', { overview: 'Accounts Clerk Cum Typists maintain railway accounting records and routine office entries. The post combines clerical work with a qualifying computer typing test where prescribed.', extraQualifications: ['A typing skill test in English or Hindi may be prescribed; speed and exemption rules come from the current CEN.'], profile: 'Vouchers, ledgers, data entry, correspondence and account records in railway offices.', pay: 'The applicable NTPC CEN states the pay level and allowances for Accounts Clerk Cum Typist.' }),
+        railwayPost('Commercial Cum Ticket Clerk', 'ntpc', {
+            overview: 'Commercial Cum Ticket Clerks support passenger ticketing and commercial work at railway stations. The post is part of the NTPC undergraduate stream when included in the applicable CEN.',
+            qualification: 'A recognised 12th-standard qualification is typical for the undergraduate NTPC stream; the current CEN controls marks, age, medical standard and post availability.',
+            profile: 'Ticket issue and checking support, passenger guidance, cash and commercial records under station procedures.',
+            pay: 'The applicable NTPC CEN states the pay level and allowances for Commercial Cum Ticket Clerk.',
+            guide: commercialTicketClerkGuide,
+            source: 'https://rrbmumbai.gov.in/CEN07_2025.php',
+        }),
+        railwayPost('Accounts Clerk Cum Typist', 'ntpc', {
+            overview: 'Accounts Clerk Cum Typists maintain railway accounting records and routine office entries. The post combines clerical work with a qualifying computer typing test where prescribed.',
+            extraQualifications: ['A typing skill test in English or Hindi may be prescribed; speed and exemption rules come from the current CEN.'],
+            profile: 'Vouchers, ledgers, data entry, correspondence and account records in railway offices.',
+            pay: 'The applicable NTPC CEN states the pay level and allowances for Accounts Clerk Cum Typist.',
+            guide: accountsClerkCumTypistGuide,
+            source: 'https://rrbmumbai.gov.in/CEN07_2025.php',
+        }),
         railwayPost('Junior Clerk Cum Typist', 'ntpc', { overview: 'Junior Clerk Cum Typists provide clerical and data-entry support in railway offices and units. The post is recruited through the NTPC undergraduate stream when notified.', extraQualifications: ['A qualifying typing test may apply, with language and speed rules set by the current CEN.'], profile: 'Correspondence, registers, computer entries, filing and routine office support.', pay: 'The applicable NTPC CEN states the pay level and allowances for Junior Clerk Cum Typist.' }),
         railwayPost('Trains Clerk', 'ntpc', { overview: 'Trains Clerks maintain train and vehicle records and support operating staff with documentation at stations or yards. The exact medical category and duties are notification-specific.', profile: 'Train consist records, arrival and departure documentation, vehicle registers and coordination with operating staff.', pay: 'The applicable NTPC CEN states the pay level and allowances for Trains Clerk.' }),
     ] },
