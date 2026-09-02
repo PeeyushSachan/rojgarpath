@@ -1,4 +1,14 @@
-import { categoryAdditions, expandedCategories } from './governmentData';
+// Lazy-loaded category data management
+// This enables code-splitting per category for better initial load performance
+
+// Cache for loaded category data to avoid re-fetching
+const categoryCache = new Map();
+
+// Track which data has been loaded to prevent duplicate loads
+const loadedData = {
+    expanded: false,
+    additions: false,
+};
 
 const mkDetail = ({
     title,
@@ -12,251 +22,100 @@ const mkDetail = ({
     resources,
 }) => ({ title, overview, eligibility, pattern, syllabus, process, dates, salary, resources });
 
-export const categories = [
+const policePopularPost = (title, track = 'State or central police recruitment track') =>
+    mkDetail({
+        title,
+        overview:
+            `${title} is a high-demand police recruitment route in India. Exact eligibility, age, physical standards, medical standards and stage sequence are controlled by the current official notification of the recruiting authority.`,
+        eligibility: [
+            'Education, age and category relaxations are notification-specific.',
+            'Physical/medical criteria, where applicable, must be checked from the current recruitment notice.',
+            'Reservation, domicile and language conditions can vary by force/state and cycle.',
+        ],
+        pattern: [
+            ['Recruitment track', track, 'Verify the current official notification'],
+            ['Common stages', 'Written exam, physical/skill stages (where applicable), document verification and medical', 'Varies by authority'],
+        ],
+        syllabus: [
+            'General awareness and current affairs',
+            'Reasoning and mental ability',
+            'Numerical aptitude',
+            'Language and post-specific topics where prescribed',
+        ],
+        process: [
+            'Read the current official notification from the relevant authority website.',
+            'Check eligibility, standards and stage details for the specific post/cycle.',
+            'Apply online, upload documents and keep registration details safe.',
+            'Track official updates for exam schedule, admit card and result.',
+        ],
+        dates: [['Recruitment cycle', 'Varies by state/force and notification']],
+        salary: ['Pay level and allowances depend on post, force/state rules and the current official notification.'],
+        resources: [
+            'Official notification PDF',
+            'Previous year papers and mock tests',
+            'Physical/skill standards notice where applicable',
+        ],
+    });
+
+// Build initial categories array with police, railway, ssc, upsc
+// Expanded categories will be loaded dynamically when needed
+const initialCategories = [
     {
         slug: 'police',
         name: 'Police',
         tagline: 'State & central police recruitment, constable to inspector grade.',
         groups: [
             {
-                name: 'Constabulary',
+                name: 'CONSTABLE & HEAD CONSTABLE',
                 posts: [
-                    mkDetail({
-                        title: 'Police Constable',
-                        overview:
-                            'Police Constable is the entry-level uniformed post in every state police force and in central armed police organisations. Recruitment happens through a written examination, a physical efficiency test and a medical examination, and each state releases its own notification with reservation and domicile rules.',
-                        eligibility: [
-                            'Age: 18 to 25 years (relaxation of 5 years for SC/ST, 3 years for OBC).',
-                            'Education: Class 12 pass from a recognised board. Some states accept Class 10.',
-                            'Height: 168 cm (male), 152 cm (female), with state-specific relaxation for hill and tribal candidates.',
-                            'Chest: 79 cm unexpanded with 5 cm expansion for male candidates.',
-                        ],
-                        pattern: [
-                            ['Stage 1', 'Written Exam (objective)', '100 questions / 100 marks / 120 min'],
-                            ['Stage 2', 'Physical Efficiency Test', 'Run, long jump, high jump (qualifying)'],
-                            ['Stage 3', 'Physical Standard Test', 'Height, chest, weight measurement'],
-                            ['Stage 4', 'Medical & Document Verification', 'Qualifying'],
-                        ],
-                        syllabus: [
-                            'General Knowledge and Current Affairs (25 marks)',
-                            'Reasoning and Mental Ability (25 marks)',
-                            'Numerical Aptitude up to Class 10 level (25 marks)',
-                            'Regional language, Hindi and basic English comprehension (25 marks)',
-                            'State-specific history, geography and civics',
-                        ],
-                        process: [
-                            'Register on the state police recruitment board portal with a valid mobile number and email.',
-                            'Fill personal, educational and category details exactly as printed on certificates.',
-                            'Upload a recent photograph, signature and left thumb impression in the given size limits.',
-                            'Pay the fee online (approximately INR 400 for general, INR 200 for reserved categories).',
-                            'Download the confirmation page and keep the registration number for admit card download.',
-                        ],
-                        dates: [
-                            ['Notification released', 'First week of March'],
-                            ['Online application window', 'March 10 to April 05'],
-                            ['Admit card download', 'Ten days before exam'],
-                            ['Written examination', 'Second Sunday of June'],
-                            ['Physical test', 'August to September'],
-                        ],
-                        salary: [
-                            'Pay Level 3, pay band INR 21,700 to INR 69,100 per month.',
-                            'Gross starting salary about INR 32,000 including allowances.',
-                            'Dearness allowance, house rent allowance, ration money and uniform allowance.',
-                            'Free medical treatment for self and dependants, group insurance and pension under NPS.',
-                        ],
-                        resources: [
-                            'Previous year written exam papers (last 8 years)',
-                            'State GK capsule and monthly current affairs digest',
-                            'Physical test preparation and running schedule',
-                        ],
-                    }),
-                    mkDetail({
-                        title: 'Police Head Constable',
-                        overview:
-                            'Head Constable posts are filled both by promotion from constable ranks and by direct recruitment in ministerial, driver and technical streams. Direct recruits handle station records, wireless communication and driving duties.',
-                        eligibility: [
-                            'Age: 18 to 27 years with standard category relaxation.',
-                            'Education: Class 12 pass; typing speed of 35 wpm English or 30 wpm Hindi for ministerial posts.',
-                            'Valid heavy or light motor vehicle licence for driver posts.',
-                        ],
-                        pattern: [
-                            ['Paper 1', 'Objective written exam', '100 marks / 90 min'],
-                            ['Paper 2', 'Skill test (typing or trade)', 'Qualifying'],
-                            ['Stage 3', 'Physical Standard Test', 'Qualifying'],
-                            ['Stage 4', 'Medical examination', 'Qualifying'],
-                        ],
-                        syllabus: [
-                            'General Awareness and Indian polity',
-                            'Quantitative aptitude and data interpretation',
-                            'Computer fundamentals and MS Office',
-                            'General English and Hindi grammar',
-                        ],
-                        process: [
-                            'Apply on the state recruitment portal during the notified window.',
-                            'Select the stream (ministerial, driver, technical) carefully as it cannot be changed later.',
-                            'Upload licence or typing certificate proofs where applicable.',
-                            'Pay fee and print the acknowledgement slip.',
-                        ],
-                        dates: [
-                            ['Notification released', 'April'],
-                            ['Last date to apply', 'May 15'],
-                            ['Written examination', 'July'],
-                            ['Skill test', 'September'],
-                        ],
-                        salary: [
-                            'Pay Level 4, pay band INR 25,500 to INR 81,100 per month.',
-                            'Gross starting salary about INR 38,000 in most states.',
-                            'Special duty allowance for wireless and technical branches.',
-                        ],
-                        resources: [
-                            'Typing test practice passages',
-                            'Computer awareness question bank',
-                            'Solved papers of previous cycles',
-                        ],
-                    }),
+                    policePopularPost('Police Constable', 'State police constable recruitment'),
+                    policePopularPost('Police Head Constable', 'State/central head constable recruitment'),
+                    policePopularPost('Constable (Driver)', 'Driver constable recruitment where notified'),
+                    policePopularPost('Head Constable (Ministerial)', 'Ministerial head constable recruitment where notified'),
                 ],
             },
             {
-                name: 'Officer Cadre',
+                name: 'SUB-INSPECTOR & OFFICER',
                 posts: [
-                    mkDetail({
-                        title: 'Police Sub-Inspector',
-                        overview:
-                            'Sub-Inspector is the first officer rank empowered to file charge sheets and lead investigations. Recruitment is done by state public service commissions or police recruitment boards, and by the Staff Selection Commission for Delhi Police and CAPFs.',
-                        eligibility: [
-                            'Age: 20 to 25 years for most states, 21 to 28 for a few.',
-                            'Education: Bachelor degree in any discipline from a recognised university.',
-                            'Height: 170 cm (male), 157 cm (female) with relaxation for reserved groups.',
-                            'Physical fitness and normal vision without colour blindness.',
-                        ],
-                        pattern: [
-                            ['Paper 1', 'General Ability and Intelligence', '200 marks / 2 hours'],
-                            ['Paper 2', 'General Studies, Maths, English', '200 marks / 2 hours'],
-                            ['Stage 3', 'PET and PST', 'Qualifying'],
-                            ['Stage 4', 'Interview or personality test', '50 marks (state specific)'],
-                        ],
-                        syllabus: [
-                            'General intelligence and reasoning, coding decoding, series',
-                            'General knowledge, Indian Constitution, IPC, CrPC and Evidence Act basics',
-                            'Quantitative aptitude up to Class 10 standard',
-                            'English comprehension, error spotting, vocabulary',
-                            'Essay and precis writing for descriptive papers',
-                        ],
-                        process: [
-                            'Create a one-time registration profile on the commission website.',
-                            'Fill the detailed application including graduation details and preference of districts.',
-                            'Upload photograph, signature and category certificate.',
-                            'Pay the examination fee online and save the application PDF.',
-                        ],
-                        dates: [
-                            ['Notification released', 'January'],
-                            ['Application window', 'January to February'],
-                            ['Paper 1 examination', 'April'],
-                            ['Paper 2 examination', 'August'],
-                            ['Final result', 'December'],
-                        ],
-                        salary: [
-                            'Pay Level 6, pay band INR 35,400 to INR 1,12,400 per month.',
-                            'Gross starting salary about INR 52,000 to INR 58,000.',
-                            'Government accommodation or HRA, official vehicle for field duty.',
-                            'Promotion path: Inspector, Deputy Superintendent of Police.',
-                        ],
-                        resources: [
-                            'Law paper notes: IPC, CrPC, Evidence Act',
-                            'Previous year SI papers with detailed solutions',
-                            'Interview and personality test guidance',
-                        ],
-                    }),
-                    mkDetail({
-                        title: 'Police Inspector',
-                        overview:
-                            'Inspectors head police stations and specialised units such as crime branch and cyber cells. A small number of posts are filled by direct recruitment through state public service commissions, the rest by departmental promotion.',
-                        eligibility: [
-                            'Age: 21 to 30 years.',
-                            'Education: Bachelor degree; law or forensic background preferred for specialised units.',
-                            'Minimum three years of service for departmental candidates.',
-                        ],
-                        pattern: [
-                            ['Prelims', 'Objective screening test', '150 marks'],
-                            ['Mains', 'Descriptive papers on law and administration', '300 marks'],
-                            ['Stage 3', 'Physical and medical standards', 'Qualifying'],
-                            ['Stage 4', 'Interview', '75 marks'],
-                        ],
-                        syllabus: [
-                            'Criminal law and procedure in depth',
-                            'Public administration and police organisation',
-                            'Investigation techniques, forensic science basics',
-                            'Cyber crime and digital evidence handling',
-                            'Current affairs with internal security focus',
-                        ],
-                        process: [
-                            'Watch the state PSC calendar for the combined police services advertisement.',
-                            'Apply online with service certificate for departmental quota candidates.',
-                            'Choose examination centre and pay the fee.',
-                            'Carry original documents to every stage.',
-                        ],
-                        dates: [
-                            ['Notification released', 'February'],
-                            ['Prelims', 'May'],
-                            ['Mains', 'October'],
-                            ['Interview', 'January next year'],
-                        ],
-                        salary: [
-                            'Pay Level 7 to 8, pay band INR 44,900 to INR 1,42,400 per month.',
-                            'Gross starting salary about INR 68,000.',
-                            'Station in-charge allowance, official residence and orderly support.',
-                        ],
-                        resources: [
-                            'Descriptive answer writing practice sets',
-                            'Internal security current affairs notes',
-                            'Departmental promotion exam question bank',
-                        ],
-                    }),
-                    mkDetail({
-                        title: 'CAPF Assistant Commandant',
-                        overview:
-                            'The UPSC conducts the Central Armed Police Forces examination to recruit Assistant Commandants in BSF, CRPF, CISF, ITBP and SSB. It is a group A gazetted officer post with border and internal security responsibility.',
-                        eligibility: [
-                            'Age: 20 to 25 years as on 1 August of the exam year.',
-                            'Education: Bachelor degree from a recognised university.',
-                            'Height: 165 cm (male), 157 cm (female); chest 81 cm with 5 cm expansion.',
-                        ],
-                        pattern: [
-                            ['Paper 1', 'General Ability and Intelligence (objective)', '250 marks / 2 hours'],
-                            ['Paper 2', 'General Studies, Essay and Comprehension', '200 marks / 3 hours'],
-                            ['Stage 2', 'Physical Efficiency Test and medical', 'Qualifying'],
-                            ['Stage 3', 'Interview and personality test', '150 marks'],
-                        ],
-                        syllabus: [
-                            'General mental ability, logical reasoning, numeracy and data interpretation',
-                            'General science, current events, Indian polity and economy',
-                            'History of India and world geography',
-                            'Essay writing in Hindi or English, precis and report writing',
-                        ],
-                        process: [
-                            'Register on the UPSC online application portal.',
-                            'Fill part 1 and part 2 of the application and select force preference.',
-                            'Pay fee of INR 200 (exempt for female, SC and ST candidates).',
-                            'Download admit card three weeks before the exam.',
-                        ],
-                        dates: [
-                            ['Notification released', 'April'],
-                            ['Last date to apply', 'Mid May'],
-                            ['Written examination', 'First Sunday of August'],
-                            ['PET and medical', 'November to January'],
-                            ['Interview', 'March to April'],
-                        ],
-                        salary: [
-                            'Pay Level 10, pay band INR 56,100 to INR 1,77,500 per month.',
-                            'Gross starting salary about INR 85,000 with field allowances.',
-                            'Ration money, risk and hardship allowance, free accommodation in campus.',
-                        ],
-                        resources: [
-                            'UPSC CAPF previous year papers (10 years)',
-                            'Essay writing model answers',
-                            'Physical efficiency test standards chart',
-                        ],
-                    }),
+                    policePopularPost('Assistant Sub-Inspector (ASI)', 'ASI recruitment in state/central police organizations'),
+                    policePopularPost('Police Sub-Inspector (SI)', 'State police SI recruitment and allied routes'),
+                    policePopularPost('Police Inspector', 'Inspector-level recruitment/promotion track as notified'),
+                    policePopularPost('Deputy Superintendent of Police (DSP)', 'State PSC/combined police service DSP route'),
+                    policePopularPost('Assistant Superintendent of Police (ASP)', 'Officer-cadre route through applicable recruitment channels'),
+                    policePopularPost('Assistant Commandant', 'Officer entry in CAPF/related channels as notified'),
+                ],
+            },
+            {
+                name: 'CENTRAL POLICE / CAPF',
+                posts: [
+                    policePopularPost('SSC GD Constable', 'SSC GD route for CAPFs and allied forces'),
+                    policePopularPost('Delhi Police Constable', 'Delhi Police constable recruitment route'),
+                    policePopularPost('Delhi Police Head Constable', 'Delhi Police head constable recruitment route'),
+                    policePopularPost('SSC CPO Sub-Inspector', 'SSC CPO SI route for Delhi Police and CAPFs'),
+                    policePopularPost('CAPF Assistant Commandant', 'UPSC CAPF Assistant Commandant recruitment route'),
+                    policePopularPost('CRPF Constable', 'CRPF constable recruitment route'),
+                    policePopularPost('BSF Constable', 'BSF constable recruitment route'),
+                    policePopularPost('CISF Constable', 'CISF constable recruitment route'),
+                    policePopularPost('ITBP Constable', 'ITBP constable recruitment route'),
+                    policePopularPost('SSB Constable', 'SSB constable recruitment route'),
+                    policePopularPost('Assam Rifles Rifleman', 'Assam Rifles rifleman recruitment route'),
+                ],
+            },
+            {
+                name: 'STATE POLICE - HIGH-DEMAND ROUTES',
+                posts: [
+                    policePopularPost('UP Police Constable', 'Uttar Pradesh constable recruitment route'),
+                    policePopularPost('UP Police Sub-Inspector', 'Uttar Pradesh SI recruitment route'),
+                    policePopularPost('Bihar Police Constable', 'Bihar constable recruitment route'),
+                    policePopularPost('Bihar Police Sub-Inspector', 'Bihar SI recruitment route'),
+                    policePopularPost('Rajasthan Police Constable', 'Rajasthan constable recruitment route'),
+                    policePopularPost('Rajasthan Police Sub-Inspector', 'Rajasthan SI recruitment route'),
+                    policePopularPost('MP Police Constable', 'Madhya Pradesh constable recruitment route'),
+                    policePopularPost('MP Police Sub-Inspector', 'Madhya Pradesh SI recruitment route'),
+                    policePopularPost('Haryana Police Constable', 'Haryana constable recruitment route'),
+                    policePopularPost('Punjab Police Constable', 'Punjab constable recruitment route'),
+                    policePopularPost('Maharashtra Police Constable', 'Maharashtra constable recruitment route'),
+                    policePopularPost('West Bengal Police Constable', 'West Bengal constable recruitment route'),
                 ],
             },
         ],
@@ -852,15 +711,69 @@ export const categories = [
     },
 ];
 
-categories.push(...expandedCategories);
-Object.entries(categoryAdditions).forEach(([slug, posts]) => {
-    const category = categories.find((item) => item.slug === slug);
-    if (category) {
-        category.groups = slug === 'railway'
-            ? posts
-            : [...category.groups, { name: 'Additional official routes', posts }];
+// Reference to the complete categories array (built as data loads)
+let categories = [...initialCategories];
+
+/**
+ * Lazily load and merge expanded categories and additions
+ * This allows code-splitting where governmentData is only loaded when needed
+ * @returns {Promise<Array>} - Complete categories array
+ */
+async function loadAndMergeExpandedData() {
+    if (loadedData.expanded && loadedData.additions) {
+        return categories;
     }
-});
+    
+    try {
+        const governmentData = await import('./governmentData');
+        
+        // Load and merge expanded categories (if not already loaded)
+        if (!loadedData.expanded && governmentData.expandedCategories) {
+            categories.push(...governmentData.expandedCategories);
+            loadedData.expanded = true;
+        }
+        
+        // Load and merge category additions (if not already loaded)
+        if (!loadedData.additions && governmentData.categoryAdditions) {
+            Object.entries(governmentData.categoryAdditions).forEach(([slug, posts]) => {
+                const category = categories.find((item) => item.slug === slug);
+                if (category) {
+                    if (!Array.isArray(posts) || posts.length === 0) return;
+                    const existingTitles = new Set(category.groups.flatMap((group) => group.posts.map((post) => post.title)));
+                    const uniquePosts = posts.filter((post) => !existingTitles.has(post.title));
+                    if (uniquePosts.length === 0) return;
+                    category.groups = slug === 'railway'
+                        ? posts
+                        : [...category.groups, { name: 'Additional official routes', posts: uniquePosts }];
+                }
+            });
+            loadedData.additions = true;
+        }
+    } catch (error) {
+        console.error('Failed to load expanded category data:', error);
+    }
+    
+    return categories;
+}
+
+/**
+ * Ensures categories are fully loaded including expanded categories
+ * Safe to call multiple times - subsequent calls return cached result
+ * @returns {Promise<Array>} - Complete categories array
+ */
+export async function ensureCategoriesLoaded() {
+    return loadAndMergeExpandedData();
+}
+
+/**
+ * Get the current categories array
+ * Note: Main categories (police, railway, ssc, upsc) are always available
+ * Expanded categories are available after ensureCategoriesLoaded() is called
+ * @returns {Array} - Current categories array (may not include all expanded categories)
+ */
+export function getCategories() {
+    return categories;
+}
 
 export const navCategories = [
     'Railway',
@@ -888,9 +801,20 @@ export const slugify = (s) =>
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/(^-|-$)/g, '');
 
-export const getCategory = (slug) => categories.find((c) => c.slug === slug);
+/**
+ * Get a category by slug
+ * Main categories return immediately, expanded categories may not be available until loaded
+ * @param {string} slug - Category slug
+ * @returns {Object|undefined} - Category object or undefined if not found
+ */
+export const getCategory = (slug) => {
+    return categories.find((c) => c.slug === slug);
+};
 
-export const getPosts = (cat) => cat.groups.flatMap((g) => g.posts);
+export const getPosts = (cat) => cat ? cat.groups.flatMap((g) => g.posts) : [];
 
 export const findPost = (cat, postSlug) =>
     getPosts(cat).find((p) => slugify(p.title) === postSlug);
+
+// Export the categories reference (will be updated as data loads)
+export { categories };

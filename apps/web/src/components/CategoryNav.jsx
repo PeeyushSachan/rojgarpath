@@ -64,7 +64,7 @@ export default function CategoryNav() {
     };
 
     return (
-        <nav aria-label="Job categories" className="bg-[#0d1117] text-slate-200">
+        <nav aria-label="Job categories" className="sticky top-16 z-40 bg-[#0d1117] text-slate-200">
             <div className="mx-auto flex w-full max-w-[90rem] items-stretch">
                 {/* Left hamburger — opens the selected category's post sidebar (mobile/tablet only) */}
                 {category && (

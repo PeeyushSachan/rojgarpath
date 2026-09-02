@@ -4,7 +4,7 @@ import { Link, Navigate, useParams } from 'react-router-dom';
 import { ChevronDown, ChevronRight, Search, X } from 'lucide-react';
 import SiteChrome from '@/components/SiteChrome';
 import { useSidebar } from '@/components/SidebarProvider';
-import { findPost, getCategory, getPosts, slugify } from '@/data/jobs';
+import { findPost, getCategory, getPosts, slugify, ensureCategoriesLoaded } from '@/data/jobs';
 
 function Section({ id, title, children }) {
     return (
@@ -121,12 +121,28 @@ function GuideImage({ image }) {
 
 export default function CategoryPage() {
     const { category, post: postSlug } = useParams();
-    const cat = getCategory(category);
     const { open, setOpen } = useSidebar();
     const [filter, setFilter] = useState('');
     const [collapsed, setCollapsed] = useState({});
+    const [isLoading, setIsLoading] = useState(true);
+    const [loadError, setLoadError] = useState(null);
 
-    // Close the sidebar drawer whenever the category changes.
+    // Ensure all categories are loaded on mount
+    useEffect(() => {
+        setIsLoading(true);
+        setLoadError(null);
+        ensureCategoriesLoaded()
+            .catch(error => {
+                console.error('Failed to load categories:', error);
+                setLoadError('Failed to load category data. Please try again.');
+            })
+            .finally(() => setIsLoading(false));
+    }, []);
+
+    // Get category - this will return immediately for main categories or from cache for expanded ones
+    const cat = useMemo(() => getCategory(category), [category]);
+
+    // Close the sidebar drawer whenever the category changes
     useEffect(() => {
         setOpen(false);
     }, [category, setOpen]);
@@ -135,6 +151,43 @@ export default function CategoryPage() {
         if (!cat) return null;
         return (postSlug && findPost(cat, postSlug)) || getPosts(cat)[0];
     }, [cat, postSlug]);
+
+    // Show loading state while categories are being loaded
+    if (isLoading) {
+        return (
+            <SiteChrome>
+                <div className="mx-auto flex w-full max-w-[90rem] gap-0 px-4 py-16 lg:px-4">
+                    <div className="flex w-full items-center justify-center">
+                        <div className="space-y-4 text-center">
+                            <div className="mx-auto h-12 w-12 animate-spin rounded-full border-4 border-slate-300 border-t-[#0b2b5b]" />
+                            <p className="text-slate-600">Loading category data...</p>
+                        </div>
+                    </div>
+                </div>
+            </SiteChrome>
+        );
+    }
+
+    // Show error state if loading failed
+    if (loadError) {
+        return (
+            <SiteChrome>
+                <div className="mx-auto flex w-full max-w-[90rem] gap-0 px-4 py-16 lg:px-4">
+                    <div className="flex w-full items-center justify-center">
+                        <div className="space-y-4 rounded-md border border-red-300 bg-red-50 p-6 text-center">
+                            <p className="font-semibold text-red-900">{loadError}</p>
+                            <button
+                                onClick={() => window.location.reload()}
+                                className="rounded-md bg-red-600 px-4 py-2 text-white hover:bg-red-700"
+                            >
+                                Reload Page
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </SiteChrome>
+        );
+    }
 
     if (!cat) return <Navigate to="/" replace />;
 

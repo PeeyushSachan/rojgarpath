@@ -6249,3 +6249,510 @@
         at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
         at App
 
+## 2026-08-25 11:22:52.623Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Source: Official RRB notices and CEN 07/2025 (NTPC Undergraduate) documents.Last verified: 2026-08-25"}
+
+## 2026-08-25 11:22:52.971Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Source: Official RRB notices and CEN 07/2025 (NTPC Undergraduate) documents.Last verified: 2026-08-25"}
+
+## 2026-08-25 11:22:57.451Z click
+- element: {"tag":"tr","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Hero office imageUnsplashhttps://images.unsplash.com/photo-1454165804606-c3d57bc86b40Unsplash contributorUnsplash LicenseAttribution not mandatory, but source retainedPhoto from Unsplash for illustrative use2026-08-25"}
+
+## 2026-08-25 11:22:57.820Z click
+- element: {"tag":"span","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"2026-08-25"}
+
+## 2026-08-25 11:22:58.160Z click
+- element: {"tag":"span","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"2026-08-25"}
+
+## 2026-08-25 11:22:59.318Z click
+- element: {"tag":"td","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RojgarPath content team"}
+
+## 2026-08-25 11:23:00.196Z click
+- element: {"tag":"td","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RojgarPath content team"}
+
+## 2026-08-25 11:23:00.669Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"ImageSourceSource URLAuthorLicenseAttribution requirementAttribution textDownload dateHero office imageUnsplashhttps://images.unsplash.com/photo-1454165804606-c3d57bc86b40Unsplash contributorUnsplash LicenseAttribution not mandatory, but source retainedPhoto from Unsplash for illustrative use2026-08-25Office/clerical imageUnsplashhttps://images.unsplash.com/photo-1521791136064-7986c2920216Unsplash contributorUnsplash LicenseAttribution not mandatory, but source retainedPhoto from Unsplash for illustrative use2026-08-25Selection-flow infographicOriginal (this project)/images/rrb-ntpc-accounts-clerk-flow.svgRojgarPath content teamOriginal artworkNo external attribution requiredGenerated for educational explanation2026-08-25Images are illustrative and do not imply endorsement by Indian Railways or RRB.Source: Official RRB notices and CEN 07/2025 (NTPC Undergraduate) documents.Last verified: 2026-08-25"}
+
+## 2026-08-25 11:23:05.789Z click
+- element: {"tag":"li","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Is the typing test qualifying?Yes, CBTST is qualifying in nature."}
+
+## 2026-08-25 11:23:06.139Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Yes, CBTST is qualifying in nature."}
+
+## 2026-08-25 11:24:04.196Z click
+- element: {"tag":"span","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"CBT 1 -> CBT 2 -> CBTST -> Document Verification -> Medical Examination"}
+
+## 2026-08-25 11:24:04.548Z click
+- element: {"tag":"td","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"CBT 1 -> CBT 2 -> CBTST -> Document Verification -> Medical Examination"}
+
+## 2026-08-25 11:24:35.861Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Source: Official RRB notices and CEN 07/2025 (NTPC Undergraduate) documents.Last verified: 2026-08-25"}
+
+## 2026-08-25 11:24:36.171Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Source: Official RRB notices and CEN 07/2025 (NTPC Undergraduate) documents.Last verified: 2026-08-25"}
+
+## 2026-08-25 11:25:22.120Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-25 11:25:22.121Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-25 11:30:51.300Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s UP Police Constable 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787657451101:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787657451101:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787657451101:230:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-25 11:30:51.301Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Bihar Police Constable 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787657451101:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787657451101:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787657451101:230:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-25 11:31:07.303Z load
+- url: http://localhost:3000/jobs/police
+
+## 2026-08-25 11:31:27.656Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Delhi Police Constable"}
+
+## 2026-08-25 11:31:27.658Z navigate
+- url: http://localhost:3000/jobs/police/delhi-police-constable
+- via: pushState
+
+## 2026-08-25 11:31:28.517Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Delhi Police Head Constable"}
+
+## 2026-08-25 11:31:28.518Z navigate
+- url: http://localhost:3000/jobs/police/delhi-police-head-constable
+- via: pushState
+
+## 2026-08-25 11:31:30.962Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UP Police Sub-Inspector"}
+
+## 2026-08-25 11:31:30.963Z navigate
+- url: http://localhost:3000/jobs/police/up-police-sub-inspector
+- via: pushState
+
+## 2026-08-25 11:34:14.190Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-25 11:34:14.191Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-08-25 11:34:14.227Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787657485764:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787657485764:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787657485764:230:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-25 11:34:19.094Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-25 11:34:19.095Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-25 11:34:24.679Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Deputy Superintendent of Police (DSP)"}
+
+## 2026-08-25 11:34:24.679Z navigate
+- url: http://localhost:3000/jobs/police/deputy-superintendent-of-police-dsp
+- via: pushState
+
+## 2026-08-25 11:34:26.452Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bihar Police Sub-Inspector"}
+
+## 2026-08-25 11:34:26.453Z navigate
+- url: http://localhost:3000/jobs/police/bihar-police-sub-inspector
+- via: pushState
+
+## 2026-08-25 11:34:31.038Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-25 11:34:31.039Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-08-25 11:34:31.067Z console.error
+- text: 
+    Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Laboratory Assistant 
+        at div
+        at div
+        at section
+        at Section (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787657485764:11:3)
+        at div
+        at article
+        at div
+        at main
+        at div
+        at SiteChrome (http://localhost:3000/src/components/SiteChrome.jsx?t=1787657485764:6:38)
+        at CategoryPage (http://localhost:3000/src/pages/CategoryPage.jsx?t=1787657485764:230:7)
+        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:6647:26)
+        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7572:3)
+        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:7511:13)
+        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=c22824ef:10816:3)
+        at SidebarProvider (http://localhost:3000/src/components/SidebarProvider.jsx:6:35)
+        at App
+
+## 2026-08-25 11:36:47.866Z load
+- url: http://localhost:3000/jobs/railway
+
+## 2026-08-25 11:36:54.814Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Commercial Cum Ticket Clerk"}
+
+## 2026-08-25 11:36:54.817Z navigate
+- url: http://localhost:3000/jobs/railway/commercial-cum-ticket-clerk
+- via: pushState
+
+## 2026-08-25 11:36:58.334Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Accounts Clerk Cum Typist"}
+
+## 2026-08-25 11:36:58.335Z navigate
+- url: http://localhost:3000/jobs/railway/accounts-clerk-cum-typist
+- via: pushState
+
+## 2026-08-25 11:37:02.396Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Clerk Cum Typist"}
+
+## 2026-08-25 11:37:02.397Z navigate
+- url: http://localhost:3000/jobs/railway/junior-clerk-cum-typist
+- via: pushState
+
+## 2026-08-25 11:37:03.348Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Trains Clerk"}
+
+## 2026-08-25 11:37:03.349Z navigate
+- url: http://localhost:3000/jobs/railway/trains-clerk
+- via: pushState
+
+## 2026-08-25 11:37:04.966Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RRB Group D (Level 1)"}
+
+## 2026-08-25 11:37:04.967Z navigate
+- url: http://localhost:3000/jobs/railway/rrb-group-d-level-1
+- via: pushState
+
+## 2026-08-25 11:37:05.416Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Track Maintainer Grade IV"}
+
+## 2026-08-25 11:37:05.416Z navigate
+- url: http://localhost:3000/jobs/railway/track-maintainer-grade-iv
+- via: pushState
+
+## 2026-08-25 11:37:05.820Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Pointsman"}
+
+## 2026-08-25 11:37:05.821Z navigate
+- url: http://localhost:3000/jobs/railway/pointsman
+- via: pushState
+
+## 2026-08-25 11:37:06.951Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Assistant / Assistant Pointsman"}
+
+## 2026-08-25 11:37:06.952Z navigate
+- url: http://localhost:3000/jobs/railway/assistant-assistant-pointsman
+- via: pushState
+
+## 2026-08-25 11:37:09.517Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Engineer (JE)"}
+
+## 2026-08-25 11:37:09.518Z navigate
+- url: http://localhost:3000/jobs/railway/junior-engineer-je
+- via: pushState
+
+## 2026-08-25 11:37:21.670Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Depot Material Superintendent (DMS)"}
+
+## 2026-08-25 11:37:21.672Z navigate
+- url: http://localhost:3000/jobs/railway/depot-material-superintendent-dms
+- via: pushState
+
+## 2026-08-25 11:37:23.090Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Chemical & Metallurgical Assistant (CMA)"}
+
+## 2026-08-25 11:37:23.091Z navigate
+- url: http://localhost:3000/jobs/railway/chemical-metallurgical-assistant-cma
+- via: pushState
+
+## 2026-08-25 11:37:24.782Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Engineer (JE)"}
+
+## 2026-08-25 11:37:24.783Z navigate
+- url: http://localhost:3000/jobs/railway/junior-engineer-je
+- via: pushState
+
+## 2026-08-25 11:37:30.736Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RPF Constable"}
+
+## 2026-08-25 11:37:30.737Z navigate
+- url: http://localhost:3000/jobs/railway/rpf-constable
+- via: pushState
+
+## 2026-08-25 11:37:30.868Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RPF Constable"}
+
+## 2026-08-25 11:37:30.869Z navigate
+- url: http://localhost:3000/jobs/railway/rpf-constable
+- via: replaceState
+
+## 2026-08-25 11:37:32.837Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RPF Sub Inspector (SI)"}
+
+## 2026-08-25 11:37:32.838Z navigate
+- url: http://localhost:3000/jobs/railway/rpf-sub-inspector-si
+- via: pushState
+
+## 2026-08-25 11:37:35.902Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"RPF"}
+
+## 2026-08-25 11:37:40.952Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-25 11:37:40.953Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-25 11:37:42.262Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Defence"}
+
+## 2026-08-25 11:37:42.264Z navigate
+- url: http://localhost:3000/jobs/defence
+- via: pushState
+
+## 2026-08-25 11:37:43.341Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"AFCAT Flying and Ground Duty Officer"}
+
+## 2026-08-25 11:37:43.342Z navigate
+- url: http://localhost:3000/jobs/defence/afcat-flying-and-ground-duty-officer
+- via: pushState
+
+## 2026-08-25 11:37:44.262Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"CAPF Assistant Commandant"}
+
+## 2026-08-25 11:37:44.263Z navigate
+- url: http://localhost:3000/jobs/defence/capf-assistant-commandant
+- via: pushState
+
+## 2026-08-25 11:37:44.941Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"AFCAT Flying and Ground Duty Officer"}
+
+## 2026-08-25 11:37:44.943Z navigate
+- url: http://localhost:3000/jobs/defence/afcat-flying-and-ground-duty-officer
+- via: pushState
+
+## 2026-08-25 11:37:47.639Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-08-25 11:37:47.640Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-08-25 11:37:59.710Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police Head Constable"}
+
+## 2026-08-25 11:37:59.711Z navigate
+- url: http://localhost:3000/jobs/police/police-head-constable
+- via: pushState
+
+## 2026-08-25 11:38:00.317Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-08-25 11:38:00.318Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-08-25 11:38:02.253Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Commercial Cum Ticket Clerk"}
+
+## 2026-08-25 11:38:02.255Z navigate
+- url: http://localhost:3000/jobs/railway/commercial-cum-ticket-clerk
+- via: pushState
+
+## 2026-08-25 11:38:03.238Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Junior Clerk Cum Typist"}
+
+## 2026-08-25 11:38:03.240Z navigate
+- url: http://localhost:3000/jobs/railway/junior-clerk-cum-typist
+- via: pushState
+
+## 2026-08-25 11:38:06.252Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Accounts Clerk Cum Typist"}
+
+## 2026-08-25 11:38:06.253Z navigate
+- url: http://localhost:3000/jobs/railway/accounts-clerk-cum-typist
+- via: pushState
+
+## 2026-09-02 05:03:43.965Z load
+- url: http://localhost:3000/
+
+## 2026-09-02 05:03:44.054Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-09-02 05:03:46.055Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-09-02 05:03:46.057Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-09-02 05:03:47.907Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Commercial Cum Ticket Clerk"}
+
+## 2026-09-02 05:03:47.908Z navigate
+- url: http://localhost:3000/jobs/railway/commercial-cum-ticket-clerk
+- via: pushState
+
+## 2026-09-02 05:03:48.761Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Banking"}
+
+## 2026-09-02 05:03:48.762Z navigate
+- url: http://localhost:3000/jobs/banking
+- via: pushState
+
+## 2026-09-02 05:03:49.998Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-09-02 05:03:49.999Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-09-02 05:03:51.025Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Commercial Cum Ticket Clerk"}
+
+## 2026-09-02 05:03:51.026Z navigate
+- url: http://localhost:3000/jobs/railway/commercial-cum-ticket-clerk
+- via: pushState
+
+## 2026-09-02 05:16:00.115Z load
+- url: http://localhost:3000/
+
+## 2026-09-02 05:16:00.171Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-09-02 05:16:03.077Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-09-02 05:16:03.079Z navigate
+- url: http://localhost:3000/jobs/upsc
+- via: pushState
+
+## 2026-09-02 05:16:04.501Z click
+- element: {"tag":"aside","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC TutorialCivil ServicesIAS - Civil Services ExamIFS - Indian Forest ServiceDefence & EngineeringUPSC Engineering ServicesUPSC NDA and CDSAdditional official routesUPSC Combined Medical ServicesUPSC Combined Defence Services"}
+
+## 2026-09-02 05:16:05.249Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"IFS - Indian Forest Service"}
+
+## 2026-09-02 05:16:05.250Z navigate
+- url: http://localhost:3000/jobs/upsc/ifs-indian-forest-service
+- via: pushState
+
+## 2026-09-02 05:16:14.830Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"IAS - Civil Services Exam"}
+
+## 2026-09-02 05:16:14.831Z navigate
+- url: http://localhost:3000/jobs/upsc/ias-civil-services-exam
+- via: pushState
+
+## 2026-09-02 05:16:15.520Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-09-02 05:16:15.521Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-09-02 05:16:49.419Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"SSC"}
+
+## 2026-09-02 05:16:49.420Z navigate
+- url: http://localhost:3000/jobs/ssc
+- via: pushState
+
+## 2026-09-02 05:16:50.898Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Railway"}
+
+## 2026-09-02 05:16:50.899Z navigate
+- url: http://localhost:3000/jobs/railway
+- via: pushState
+
+## 2026-09-02 05:16:51.999Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Commercial Cum Ticket Clerk"}
+
+## 2026-09-02 05:16:51.999Z navigate
+- url: http://localhost:3000/jobs/railway/commercial-cum-ticket-clerk
+- via: pushState
+
+## 2026-09-02 05:17:03.145Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Police"}
+
+## 2026-09-02 05:17:03.145Z navigate
+- url: http://localhost:3000/jobs/police
+- via: pushState
+
+## 2026-09-02 05:17:04.204Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-09-02 05:17:04.205Z navigate
+- url: http://localhost:3000/jobs/upsc
+- via: pushState
+
+## 2026-09-02 05:17:09.422Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open UPSC posts sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UPSC"}
+
+## 2026-09-02 05:17:11.425Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Close sidebar","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-09-02 05:17:13.645Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
+## 2026-09-02 05:17:14.214Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Open website menu","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Menu"}
+
